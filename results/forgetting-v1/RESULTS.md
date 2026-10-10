@@ -205,5 +205,5 @@ Audit history is retained; forgetting changes prediction weights rather than phy
   "equal_compute_or_capacity": false
 }
 The embedding remains identity encoding of six measured cue values over four known fitted tasks. This is a synthetic concept-drift experiment, not semantic memory, new-task learning, novelty proof, SAM-kNN/ADWIN/Titans reproduction or general architecture superiority.
-Sources and exact distinctions are in source/experiments/forgetting-20261010/RELATED_RESEARCH.md. Fresh-process refit/reselection/replay and all-policy strict prior-feedback resumes are in verification.json.
+Sources and exact distinctions are in [the related-work note](../../experiments/forgetting-20261010/RELATED_RESEARCH.md). Fresh-process refit/reselection/replay and all-policy strict prior-feedback resumes are in verification.json.
 No keys, downloaded models, API calls, services or QPU jobs are required; the Python process guard is not an OS sandbox. Earlier results, failed gates and live defaults remain unchanged.

@@ -118,12 +118,12 @@ No semantic embeddings, new tasks, peptide weights, external APIs, services,
 QPU jobs, live assistant changes or general AI claims are involved.
 
 The primary-source reference check is in
-`source/experiments/forgetting-20261010/RELATED_RESEARCH.md`.
-[SAM-kNN](http[redacted-local-path] and
-[ADWIN](http[redacted-local-path] are the closest
+[related-work note](../../experiments/forgetting-20261010/RELATED_RESEARCH.md).
+[SAM-kNN](https://www.ijcai.org/Proceedings/2017/0690.pdf) and
+[ADWIN](https://epubs.siam.org/doi/10.1137/1.9781611972771.42) are the closest
 memory/drift references;
-[Dynamic Weighted Majority](http[redacted-local-path] and
-[Titans](http[redacted-local-path] provide broader ensemble and neural
+[Dynamic Weighted Majority](https://www.jmlr.org/papers/v8/kolter07a.html) and
+[Titans](https://arxiv.org/abs/2501.00663) provide broader ensemble and neural
 memory context. This experiment does not implement those full methods or
 establish novelty.
 

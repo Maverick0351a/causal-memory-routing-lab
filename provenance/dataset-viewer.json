@@ -1,0 +1,10 @@
+{
+  "checked_utc": "2026-10-10T21:13:46.715871+00:00",
+  "status": "PASS",
+  "config": "metrics",
+  "split": "evaluation",
+  "provider_row_count": 208210,
+  "first_100_rows_match_local_export": true,
+  "pending": [],
+  "failed": []
+}

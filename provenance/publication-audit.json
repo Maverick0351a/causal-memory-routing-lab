@@ -1,17 +1,17 @@
 {
   "github": {
-    "files": 259,
-    "text_or_json_files_scanned": 213,
+    "files": 264,
+    "text_or_json_files_scanned": 218,
     "forbidden_pattern_hits": 0
   },
   "dataset": {
-    "files": 15,
-    "text_or_json_files_scanned": 6,
+    "files": 16,
+    "text_or_json_files_scanned": 7,
     "forbidden_pattern_hits": 0
   },
   "space": {
-    "files": 3,
-    "text_or_json_files_scanned": 3,
+    "files": 4,
+    "text_or_json_files_scanned": 4,
     "forbidden_pattern_hits": 0
   },
   "original_preservation": {
