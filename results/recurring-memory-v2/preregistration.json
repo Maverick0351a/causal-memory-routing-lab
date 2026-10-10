@@ -1,0 +1,221 @@
+{
+  "created_utc": "2026-10-10T19:08:42.732667+00:00",
+  "phase": "before all registered calibration/training/validation/test generation",
+  "config": {
+    "id": "recurring-memory-recovery-20261010",
+    "version": 2,
+    "frozen_gate": "results/confidence-transfer-v1/checkpoints/frozen_gate.npz",
+    "frozen_gate_sha256": "ea13900be7487f6030189f4fc80545d975ee47a58aa46b2c3117412eab37fe4f",
+    "calibration_seeds": [
+      710001,
+      710002,
+      710003,
+      710004,
+      710005,
+      710006,
+      710007,
+      710008
+    ],
+    "calibration_steps": 1024,
+    "coefficient_seed": 710901,
+    "coefficient_norm": 3.0,
+    "expert_seeds": [
+      730001,
+      730002,
+      730003,
+      730004
+    ],
+    "expert_epochs": 160,
+    "expert_learning_rate": 0.05,
+    "expert_l2": 0.001,
+    "training_seeds": [
+      711001,
+      711002,
+      711003,
+      711004,
+      711005,
+      711006,
+      711007,
+      711008
+    ],
+    "training_steps": 1024,
+    "recurrent_seeds": [
+      731001,
+      731002,
+      731003
+    ],
+    "training_shuffle_seed": 732001,
+    "recurrent_hidden": 24,
+    "recurrent_epochs": 12,
+    "recurrent_learning_rate": 0.003,
+    "bptt_steps": 32,
+    "recurrent_temperatures": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "validation_seeds": [
+      720001,
+      720002,
+      720003,
+      720004,
+      720005,
+      720006
+    ],
+    "validation_steps": 1536,
+    "test_seeds": [
+      950001,
+      950002,
+      950003,
+      950004,
+      950005,
+      950006,
+      950007,
+      950008,
+      950009,
+      950010,
+      950011,
+      950012,
+      950013,
+      950014,
+      950015,
+      950016,
+      950017,
+      950018,
+      950019,
+      950020,
+      950021,
+      950022,
+      950023,
+      950024
+    ],
+    "test_steps": 2048,
+    "cases": [
+      "recurring",
+      "noisy_cues",
+      "novel_contexts",
+      "mapping_change",
+      "random_labels",
+      "no_feedback"
+    ],
+    "selection_cases": [
+      "recurring",
+      "noisy_cues"
+    ],
+    "primary_cases": [
+      "recurring",
+      "noisy_cues"
+    ],
+    "quality_cases": [
+      "novel_contexts",
+      "mapping_change",
+      "random_labels"
+    ],
+    "block_interval": [
+      48,
+      96
+    ],
+    "cue_norm": 3.0,
+    "minimum_cue_separation": 2.0,
+    "cue_sigma": 0.12,
+    "noisy_cue_sigma": 0.3,
+    "routing_temperature": 8.0,
+    "evidence_warmup": 8,
+    "memory_capacity": 1024,
+    "memory_neighbors": [
+      32,
+      64
+    ],
+    "memory_radii": [
+      0.75,
+      1.25
+    ],
+    "memory_blends": [
+      0.5,
+      1.0
+    ],
+    "cache_capacity": 8,
+    "cache_radii": [
+      0.75,
+      1.25
+    ],
+    "cache_rates": [
+      0.1,
+      0.35
+    ],
+    "cache_blend": 1.0,
+    "shuffled_memory_seed": 733001,
+    "bootstrap_seed": 740001,
+    "bootstrap_replicates": 10000,
+    "minimum_return_log_loss_improvement": 0.02,
+    "minimum_delay_reduction": 2.0,
+    "minimum_cache_log_loss_improvement": 0.01,
+    "maximum_quality_loss_degradation": 0.02,
+    "maximum_stale_loss_degradation": 0.03,
+    "maximum_quality_confident_error_excess": 0.01,
+    "maximum_quality_brier_degradation": 0.01,
+    "maximum_random_loss_above_uniform": 0.03,
+    "chance_tolerance": 0.02,
+    "return_window": 16,
+    "recovery_window": 8,
+    "recovery_horizon": 64,
+    "recovery_loss_threshold": 0.55,
+    "resume_step": 1024,
+    "supersedes_incomplete_run": "results/recurring-memory-v1"
+  },
+  "source_hashes": {
+    "experiments\\recurring-memory-recovery-20261010\\protocol.json": "7559dd381690ab04e4317522e85d17341029761f209061595e396baa2c99f4e8",
+    "experiments\\recurring-memory-recovery-20261010\\PROTOCOL.md": "95041b07f4f2bd2bef77dd167f20ad74c25a1df0e2648989fea82d935f222291",
+    "experiments\\recurring-memory-recovery-20261010\\preservation.json": "731aeed6ca7ab4c97a9132257b89769685b165071ea578cc63489ad829971156",
+    "Run-Recall-Recovery.ps1": "abc1a384c7399f49fa6080ff83e1a66fcadcfe769f2e9d73aed60d06b3cead1a",
+    "results\\confidence-transfer-v1\\checkpoints\\frozen_gate.npz": "ea13900be7487f6030189f4fc80545d975ee47a58aa46b2c3117412eab37fe4f",
+    "scripts\\offline_guard\\sitecustomize.py": "8c7ba956274b40d9ee482a5ce8005f98d4a3ad6c4447125d9a4fe17e7339b446",
+    "recall_recovery\\__init__.py": "ca93260302c90a576415ad50b3cb77bf74e66ca5417b538574c56ab70aa7ee42",
+    "recall_recovery\\benchmark.py": "400751e2f9ae20aae2efa7ace4adb68a0bffc4d39eeef11694d99dfeba046170",
+    "recall_recovery\\experiment.py": "21ed60b407c5a3463275bb22e2f7b094bdb2729b3e34dc32dada520407291967",
+    "recall_recovery\\memory.py": "12920ea835b8bc4033efba31f374410c6ffab2da1bb622c3a4a2d3d66ad5a5e7",
+    "recall_recovery\\policy.py": "5ba409cef13b1bbf08f36e4c751ffefba4ffe1655b35156c49d1b3a90414089d",
+    "recall_recovery\\public.py": "915a8aa078f4b19033008ddcb67f3131e603ab435ac8f9718cb144b7664c019d",
+    "recall_recovery\\report.py": "99328737ebee4b53b9f199ed2f8136eb13c6d9b495bc8727efbb18dfc004b3db",
+    "recall_recovery\\training.py": "2ca403c1921bc81e291abc4ec473fc6003320e1447a4b4ccf1c76068221111ca",
+    "recall_recovery\\verify.py": "58b12f823dc6bfdaed2f19c1b459a36f980f3c1198bf01079f3d63097056f32b",
+    "recall_recovery\\world.py": "bb4801885a5f9dea6c26dc8d69c0525e5c32a1b21eead7d9fec41af23a0e40dd",
+    "recall_recovery_tests\\test_recall_recovery.py": "e30be99c556c03223ce64f56c5583e3d654430600c286086d49779fdfedb1833",
+    "archlab\\__init__.py": "efbe2faa3b101ca4ec8c0fc15028b676fe77d2957bfb9d7d35b11d1f3519c8c8",
+    "archlab\\benchmark.py": "c216a2be7295474e4e22f323f0e4635880b7d7b1458f4cc8846e04468977a6e3",
+    "archlab\\controllers.py": "33f46385be52ed07493d61f272b638fc993d77d84dd9b5dbbcae9621a3b9942e",
+    "archlab\\embedding.py": "ea4998b707b379b8edd6b217de6cf91d772250aeb9035322417ba0b8012491ef",
+    "archlab\\matched.py": "7649bc382a89ea4c96699141e6e99d7ab6ec20c71ccb938ea459e8a2ff9170c4",
+    "archlab\\memory.py": "68a4159a7449f3df2fceb3ea7e1742fa636be64feadb32cd8f46ddbdf24d782a",
+    "archlab\\public.py": "17f4cca8b6777132de2e777f3abfd5b07386ae4ac1b1c8e3fc17946dc38dcb16",
+    "confidence_lab\\__init__.py": "213eff47dabd772bc63dd7b9c4fb3f4a3f2508ec8ef42600d0ef073de118808b",
+    "confidence_lab\\benchmark.py": "572c539e6e31108eb6df8b471a0299f706e5ba33dd6b896505a34709d9506c9b",
+    "confidence_lab\\experiment.py": "6efc73efcb08fd4408142204a9e2ecadd847208b58481ef8de0c239684b12f63",
+    "confidence_lab\\policy.py": "edf04837ccc8d60cb5a84ee606a047f9ecdc79e87ffb1f7f0ac20e32079faee4",
+    "transfer_lab\\__init__.py": "297bdef23ae4a1893d601ac84ad7c31090588c4922f603b4a6a64db84aad2f12",
+    "transfer_lab\\benchmark.py": "72f8bbcfab0c6f0868514986edaf455593ee69970d0ea056f14198f85c518529",
+    "transfer_lab\\experiment.py": "2d4586651d1116fe478df29e70e22322a2eb5879ad64f28ffb556ee8768100ac",
+    "transfer_lab\\plot.py": "e6148df16ea607cfcbbf22fe192011de1b3fe5a4f0a677ab809edbfe46aa3110",
+    "transfer_lab\\policy.py": "26e5bd6c2b33ecba03891fe8612f7d7585d5c2844f01421c0e462771419c804f",
+    "transfer_lab\\prepare.py": "1fa3ce524ff1c764d2b1091d8350e6c727b4d635f80e12ab1c88d9c58a49ab8b",
+    "transfer_lab\\verify.py": "a925d85067dd8b019741279e8c9fcbf23254da0872e031afe33829c877da7822",
+    "sensor_lab\\__init__.py": "bdfc0b807a8037f2b187119a5bfb1caa6253e64b8fafe71d8d278d08a293ed73",
+    "sensor_lab\\benchmark.py": "0f68483576e2bbdae7d17fd3bcfb4b1d9be0dab821d89547b0695c0259cbdf2f",
+    "sensor_lab\\experiment.py": "6852dad4def490111bf3a7a72e8f0d51edd4e607446da339c8801e4cf3555016",
+    "sensor_lab\\memory.py": "694a56a9852142fc5f9447d132390d12c8df5f0333b77ca8bdce9aaf4a0c085b",
+    "sensor_lab\\policy.py": "89e119bdcc853e63eed2b59c65aa1a3d84a5642a8c0fa1baf51b043e2a7ba1cb",
+    "sensor_lab\\prepare.py": "f688342f538e92a8f49ef2c6253a32392c897d0c8407e096d198d7399c6cb081",
+    "sensor_lab\\public.py": "6a867c52cb2aa811c45fa436e73c4a91050ab8279174c6a013eccb5c72874a60",
+    "sensor_lab\\report.py": "73beb51299289d3b77529a607ca09ef55570f65e160420964732f905be5b76a6",
+    "sensor_lab\\verify.py": "4844219d0c246ca8f8c48f3d6e19bddc14e67090555e4a978589e220f1764766",
+    "sensor_lab\\world.py": "75447671f03f2e7f46ab02aec296de462d72bfe4ae399025860207e19e3dff44"
+  },
+  "python": "3.11.15 (main, Jul 23 2026, 14:42:43) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "[redacted local path]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "offline_proof": {
+    "listed_provider_credentials_absent": true,
+    "socket_guard_denied_name_resolution": true,
+    "scope": "Python process guard, not an OS sandbox"
+  }
+}

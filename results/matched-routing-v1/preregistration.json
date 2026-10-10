@@ -1,0 +1,79 @@
+{
+  "created_utc": "2026-10-10T17:51:21.729116+00:00",
+  "config": {
+    "id": "matched-routing-20261010",
+    "version": 1,
+    "training_seeds": [
+      11011,
+      22022,
+      33033,
+      44044,
+      55055,
+      66066
+    ],
+    "test_seeds": [
+      810001,
+      810002,
+      810003,
+      810004,
+      810005,
+      810006,
+      810007,
+      810008,
+      810009,
+      810010
+    ],
+    "model_seeds": [
+      71,
+      89,
+      107,
+      131,
+      149
+    ],
+    "epochs": 12,
+    "train_steps": 512,
+    "test_steps": 768,
+    "batch_size": 16,
+    "learning_rate": 0.003,
+    "shuffle_seed": 700,
+    "conditions": [
+      "standard",
+      "fast_switch",
+      "random_labels",
+      "no_feedback"
+    ],
+    "ar_hidden": 24,
+    "joint_hidden": 26,
+    "minimum_log_loss_improvement": 0.01,
+    "maximum_parameter_gap_fraction": 0.02,
+    "maximum_forward_mac_gap_fraction": 0.05,
+    "maximum_forward_latency_ratio": 1.25,
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 173205,
+    "recovery_window": 8,
+    "recovery_correct": 7,
+    "recovery_horizon": 32,
+    "timing_seed": 314159,
+    "timing_vectors": 256,
+    "timing_repetitions": 5
+  },
+  "hashes": {
+    "experiments\\matched-routing-20261010\\protocol.json": "da81aa35657cb938217a7a99539b5fc28835c92237daf6a70501885ed88b48d1",
+    "experiments\\matched-routing-20261010\\PROTOCOL.md": "e7e46903c12d61df15a9b982d14437f6780c1708b5c0b93f8027842907884269",
+    "experiments\\matched-routing-20261010\\preservation.json": "132f4b4aabb0f2bcfd4fcb65bd189eb05c1bcbc30d88e8353c876e7392abd7a7",
+    "archlab\\__init__.py": "efbe2faa3b101ca4ec8c0fc15028b676fe77d2957bfb9d7d35b11d1f3519c8c8",
+    "archlab\\benchmark.py": "c216a2be7295474e4e22f323f0e4635880b7d7b1458f4cc8846e04468977a6e3",
+    "archlab\\controllers.py": "33f46385be52ed07493d61f272b638fc993d77d84dd9b5dbbcae9621a3b9942e",
+    "archlab\\embedding.py": "ea4998b707b379b8edd6b217de6cf91d772250aeb9035322417ba0b8012491ef",
+    "archlab\\matched.py": "7649bc382a89ea4c96699141e6e99d7ab6ec20c71ccb938ea459e8a2ff9170c4",
+    "archlab\\memory.py": "68a4159a7449f3df2fceb3ea7e1742fa636be64feadb32cd8f46ddbdf24d782a",
+    "archlab\\public.py": "17f4cca8b6777132de2e777f3abfd5b07386ae4ac1b1c8e3fc17946dc38dcb16",
+    "scripts\\verify_matched.py": "db1a3e2deef727097f69e539181c7a0b3d8fd249d9bd69d8775e4631c7a16ee9",
+    "tests\\test_matched.py": "5398ff19b95a1e923442dd8335f84c174ce8215c8d653d089b606f8ff0945f92",
+    "tests\\test_architecture.py": "9a7e9d605e9040ea39c7c0650f1ae83bb9abff975ec259abcadbc9ceb3af890a"
+  },
+  "python": "3.11.15 (main, Jul 23 2026, 14:42:43) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "[redacted local path]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "phase": "written before model initialization and any experiment data generation"
+}

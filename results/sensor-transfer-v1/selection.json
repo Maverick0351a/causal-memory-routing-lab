@@ -1,0 +1,83 @@
+{
+  "fixed_weights": [
+    0.7755946216147885,
+    0.026910376655559634
+  ],
+  "fixed_validation_log_loss": 0.5351880227226399,
+  "online": {
+    "rate": 0.08,
+    "decay": 0.01
+  },
+  "online_validation_grid": [
+    {
+      "rate": 0.005,
+      "decay": 0.0,
+      "log_loss": 0.5123249199336006
+    },
+    {
+      "rate": 0.005,
+      "decay": 0.001,
+      "log_loss": 0.5123346427982939
+    },
+    {
+      "rate": 0.005,
+      "decay": 0.01,
+      "log_loss": 0.5124243665807909
+    },
+    {
+      "rate": 0.02,
+      "decay": 0.0,
+      "log_loss": 0.504198366422517
+    },
+    {
+      "rate": 0.02,
+      "decay": 0.001,
+      "log_loss": 0.5041819146469391
+    },
+    {
+      "rate": 0.02,
+      "decay": 0.01,
+      "log_loss": 0.5040612329363344
+    },
+    {
+      "rate": 0.08,
+      "decay": 0.0,
+      "log_loss": 0.49267997164374594
+    },
+    {
+      "rate": 0.08,
+      "decay": 0.001,
+      "log_loss": 0.49259376113919845
+    },
+    {
+      "rate": 0.08,
+      "decay": 0.01,
+      "log_loss": 0.4919131177352431
+    },
+    {
+      "rate": 0.32,
+      "decay": 0.0,
+      "log_loss": 0.5137404377313682
+    },
+    {
+      "rate": 0.32,
+      "decay": 0.001,
+      "log_loss": 0.5134437362113794
+    },
+    {
+      "rate": 0.32,
+      "decay": 0.01,
+      "log_loss": 0.5111391771278669
+    }
+  ],
+  "selected_online_index": 8,
+  "validation_examples": 24576,
+  "validation_data_sha256": "7845206b651683a79b395a258089477004038b053752ce76e7647abcbcb525f2",
+  "selection_cases": [
+    "stable",
+    "mixed"
+  ],
+  "created_utc": "2026-10-10T18:31:23.639407+00:00",
+  "phase": "locked before ANY held-out generation",
+  "ensemble_sha256": "b1cced135e4a6ad032da01c1969370589eff6ef38612f87d0772be6b815f5d40"
+}

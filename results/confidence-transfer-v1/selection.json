@@ -1,0 +1,298 @@
+{
+  "training_data_sha256": "1fbb4ddce88f728f2441fc59996b7168d70fe67e9839fa116f5160f42e548332",
+  "validation_data_sha256": "5a69a8208abbdc3fbe160e1afb0c7db45551224d1202abb9e29b36ee374e9c71",
+  "training_examples": 49152,
+  "validation_examples": 49152,
+  "prior_training_grid": [
+    {
+      "alpha": 0.0,
+      "log_loss": 0.6931471805599453
+    },
+    {
+      "alpha": 0.05,
+      "log_loss": 0.6761359084883821
+    },
+    {
+      "alpha": 0.1,
+      "log_loss": 0.6603649048731915
+    },
+    {
+      "alpha": 0.15,
+      "log_loss": 0.6457919401500264
+    },
+    {
+      "alpha": 0.2,
+      "log_loss": 0.6323859367638902
+    },
+    {
+      "alpha": 0.25,
+      "log_loss": 0.6201266595673072
+    },
+    {
+      "alpha": 0.3,
+      "log_loss": 0.609004787973647
+    },
+    {
+      "alpha": 0.35,
+      "log_loss": 0.5990224037065034
+    },
+    {
+      "alpha": 0.4,
+      "log_loss": 0.5901939668260967
+    },
+    {
+      "alpha": 0.45,
+      "log_loss": 0.5825479060008455
+    },
+    {
+      "alpha": 0.5,
+      "log_loss": 0.5761290281450312
+    },
+    {
+      "alpha": 0.55,
+      "log_loss": 0.5710020774323149
+    },
+    {
+      "alpha": 0.6,
+      "log_loss": 0.5672569809538662
+    },
+    {
+      "alpha": 0.65,
+      "log_loss": 0.565016679142152
+    },
+    {
+      "alpha": 0.7,
+      "log_loss": 0.5644490999858951
+    },
+    {
+      "alpha": 0.75,
+      "log_loss": 0.5657861180785559
+    },
+    {
+      "alpha": 0.8,
+      "log_loss": 0.5693550021472884
+    },
+    {
+      "alpha": 0.85,
+      "log_loss": 0.5756338706483026
+    },
+    {
+      "alpha": 0.9,
+      "log_loss": 0.5853578160492049
+    },
+    {
+      "alpha": 0.95,
+      "log_loss": 0.599746409310716
+    },
+    {
+      "alpha": 1.0,
+      "log_loss": 0.621081273628857
+    }
+  ],
+  "prior_before_clip": 0.7,
+  "fixed_validation_grid": [
+    {
+      "alpha": 0.0,
+      "log_loss": 0.6931471805599453
+    },
+    {
+      "alpha": 0.05,
+      "log_loss": 0.6763965758117326
+    },
+    {
+      "alpha": 0.1,
+      "log_loss": 0.6608848907128779
+    },
+    {
+      "alpha": 0.15,
+      "log_loss": 0.6465707487588389
+    },
+    {
+      "alpha": 0.2,
+      "log_loss": 0.6334239398687487
+    },
+    {
+      "alpha": 0.25,
+      "log_loss": 0.621425129167313
+    },
+    {
+      "alpha": 0.3,
+      "log_loss": 0.6105659498376055
+    },
+    {
+      "alpha": 0.35,
+      "log_loss": 0.6008495152662142
+    },
+    {
+      "alpha": 0.4,
+      "log_loss": 0.5922914250310496
+    },
+    {
+      "alpha": 0.45,
+      "log_loss": 0.584921393366815
+    },
+    {
+      "alpha": 0.5,
+      "log_loss": 0.578785709205079
+    },
+    {
+      "alpha": 0.55,
+      "log_loss": 0.5739508639728667
+    },
+    {
+      "alpha": 0.6,
+      "log_loss": 0.5705088944091844
+    },
+    {
+      "alpha": 0.65,
+      "log_loss": 0.5685853554267659
+    },
+    {
+      "alpha": 0.7,
+      "log_loss": 0.5683515121535061
+    },
+    {
+      "alpha": 0.75,
+      "log_loss": 0.570043649157173
+    },
+    {
+      "alpha": 0.8,
+      "log_loss": 0.5739951164679006
+    },
+    {
+      "alpha": 0.85,
+      "log_loss": 0.580692890719171
+    },
+    {
+      "alpha": 0.9,
+      "log_loss": 0.5908859614692958
+    },
+    {
+      "alpha": 0.95,
+      "log_loss": 0.6058181637326991
+    },
+    {
+      "alpha": 1.0,
+      "log_loss": 0.627821190907775
+    }
+  ],
+  "fixed_alpha": 0.7,
+  "online_validation_grid": [
+    {
+      "prior": 0.7,
+      "share": 0.0,
+      "learning_rate": 0.25,
+      "log_odds_clip": 20.0,
+      "log_loss": 0.5389267102999983
+    },
+    {
+      "prior": 0.7,
+      "share": 0.0,
+      "learning_rate": 1.0,
+      "log_odds_clip": 20.0,
+      "log_loss": 0.5316490004328775
+    },
+    {
+      "prior": 0.7,
+      "share": 0.0,
+      "learning_rate": 4.0,
+      "log_odds_clip": 20.0,
+      "log_loss": 0.5115686552379705
+    },
+    {
+      "prior": 0.7,
+      "share": 0.005,
+      "learning_rate": 0.25,
+      "log_odds_clip": 20.0,
+      "log_loss": 0.5159596541395061
+    },
+    {
+      "prior": 0.7,
+      "share": 0.005,
+      "learning_rate": 1.0,
+      "log_odds_clip": 20.0,
+      "log_loss": 0.5099101404576399
+    },
+    {
+      "prior": 0.7,
+      "share": 0.005,
+      "learning_rate": 4.0,
+      "log_odds_clip": 20.0,
+      "log_loss": 0.5414298838891388
+    },
+    {
+      "prior": 0.7,
+      "share": 0.02,
+      "learning_rate": 0.25,
+      "log_odds_clip": 20.0,
+      "log_loss": 0.5133082733085675
+    },
+    {
+      "prior": 0.7,
+      "share": 0.02,
+      "learning_rate": 1.0,
+      "log_odds_clip": 20.0,
+      "log_loss": 0.5126448550236058
+    },
+    {
+      "prior": 0.7,
+      "share": 0.02,
+      "learning_rate": 4.0,
+      "log_odds_clip": 20.0,
+      "log_loss": 0.5480130049307691
+    },
+    {
+      "prior": 0.7,
+      "share": 0.08,
+      "learning_rate": 0.25,
+      "log_odds_clip": 20.0,
+      "log_loss": 0.5331889459578644
+    },
+    {
+      "prior": 0.7,
+      "share": 0.08,
+      "learning_rate": 1.0,
+      "log_odds_clip": 20.0,
+      "log_loss": 0.524406452413773
+    },
+    {
+      "prior": 0.7,
+      "share": 0.08,
+      "learning_rate": 4.0,
+      "log_odds_clip": 20.0,
+      "log_loss": 0.5521072463351759
+    },
+    {
+      "prior": 0.7,
+      "share": 0.25,
+      "learning_rate": 0.25,
+      "log_odds_clip": 20.0,
+      "log_loss": 0.556620638823706
+    },
+    {
+      "prior": 0.7,
+      "share": 0.25,
+      "learning_rate": 1.0,
+      "log_odds_clip": 20.0,
+      "log_loss": 0.5432269338623332
+    },
+    {
+      "prior": 0.7,
+      "share": 0.25,
+      "learning_rate": 4.0,
+      "log_odds_clip": 20.0,
+      "log_loss": 0.5535321413791828
+    }
+  ],
+  "selected_online_index": 4,
+  "online": {
+    "prior": 0.7,
+    "share": 0.005,
+    "learning_rate": 1.0,
+    "log_odds_clip": 20.0
+  },
+  "frozen_gate_validation_log_loss": 0.5105088514982361,
+  "phase": "locked before any held-out data generation",
+  "created_utc": "2026-10-10T18:18:22.020554+00:00",
+  "frozen_gate_sha256": "ea13900be7487f6030189f4fc80545d975ee47a58aa46b2c3117412eab37fe4f"
+}

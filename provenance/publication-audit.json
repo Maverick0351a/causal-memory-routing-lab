@@ -1,0 +1,27 @@
+{
+  "github": {
+    "files": 259,
+    "text_or_json_files_scanned": 213,
+    "forbidden_pattern_hits": 0
+  },
+  "dataset": {
+    "files": 15,
+    "text_or_json_files_scanned": 6,
+    "forbidden_pattern_hits": 0
+  },
+  "space": {
+    "files": 3,
+    "text_or_json_files_scanned": 3,
+    "forbidden_pattern_hits": 0
+  },
+  "original_preservation": {
+    "frozen_lab_files_unchanged": 668,
+    "prior_lab_files_unchanged": 3263,
+    "original_project_files_unchanged": 3,
+    "final_manifest_sha256": "ffb186904a3956e73869128b87ae4513536c1ce67247d4d3498b1e9ba8a8b161",
+    "vendor_clean_pinned": true
+  },
+  "all_numeric_results_gates_unchanged": true,
+  "metric_rows": 208210,
+  "limits": "Pattern and allowlist audit, not a general secret-detection proof. Raw evaluation labels intentionally exposed."
+}

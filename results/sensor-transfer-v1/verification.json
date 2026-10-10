@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "test_streams": 168,
+  "policy_traces": 840,
+  "replayed_predictions": 1290240,
+  "all_traces_and_probabilities_exact": true,
+  "base_ensemble_refit_exact": true,
+  "calibration_fit_and_selection_recomputed_exactly": true,
+  "gate_checkpoint_byte_identical": true,
+  "gate_normalization_and_weights_unchanged": true,
+  "base_predictor_weights_unchanged": true,
+  "metrics_slices_delays_bootstraps_and_gates_recomputed": true,
+  "all_recorded_source_and_artifact_hashes_match": true,
+  "persistent_memory_resumes": {
+    "frozen_gate": {
+      "step": 768,
+      "history_strictly_before_step": 768,
+      "probability": 0.4953011152543466,
+      "base_probability": 0.3838851983090806,
+      "alpha": 0.040467577580342765,
+      "slope": null,
+      "intercept": null
+    },
+    "online_calibration": {
+      "step": 768,
+      "history_strictly_before_step": 768,
+      "probability": 0.5766505173400034,
+      "base_probability": 0.3838851983090806,
+      "alpha": null,
+      "slope": -0.08886217330366547,
+      "intercept": 0.2669985708474936
+    }
+  },
+  "offline_proof": {
+    "listed_provider_credentials_absent": true,
+    "socket_guard_denied_name_resolution": true,
+    "scope": "Python process guard, not an OS sandbox"
+  },
+  "preservation": {
+    "prior_lab_files_unchanged": 2552,
+    "original_project_files_unchanged": 3,
+    "vendor_clean": true,
+    "vendor_commit": "d8d37bc4de28d2347d8e21405903b29a2891f793",
+    "frozen_gate_sha256": "ea13900be7487f6030189f4fc80545d975ee47a58aa46b2c3117412eab37fe4f",
+    "new_pretrained_weight_files": []
+  },
+  "scientific_gates": {
+    "cross_task_value": false,
+    "cross_task_quality": true,
+    "negative_controls": true,
+    "qualified_on_sensor_family": false,
+    "components": {
+      "value": {
+        "minimum_improvement": false,
+        "paired_upper_below_zero": true,
+        "mixed_loss_preserved": true,
+        "short_mixed_loss_preserved": true,
+        "weak_signal_loss_preserved": true,
+        "rotating_loss_preserved": true
+      },
+      "quality": {
+        "mixed_brier_preserved": true,
+        "mixed_confident_errors_preserved": true,
+        "short_mixed_brier_preserved": true,
+        "short_mixed_confident_errors_preserved": true,
+        "weak_signal_brier_preserved": true,
+        "weak_signal_confident_errors_preserved": true,
+        "rotating_brier_preserved": true,
+        "rotating_confident_errors_preserved": true,
+        "mixed/signal_entry_first16": true,
+        "mixed/noise_entry_first16": true,
+        "short_mixed/signal_entry_first16": true,
+        "short_mixed/noise_entry_first16": true,
+        "stable_loss_preserved": true,
+        "random_loss_near_uniform": true,
+        "random_confident_errors_halved": true
+      },
+      "controls": {
+        "uniform_random_accuracy_near_chance": true,
+        "base_random_accuracy_near_chance": true,
+        "fixed_calibration_random_accuracy_near_chance": true,
+        "frozen_gate_random_accuracy_near_chance": true,
+        "online_calibration_random_accuracy_near_chance": true
+      }
+    }
+  }
+}

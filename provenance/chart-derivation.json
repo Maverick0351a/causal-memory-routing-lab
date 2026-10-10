@@ -1,0 +1,51 @@
+{
+  "archives": {
+    "benchmark-v1": {
+      "sha256": "56a06fcb0035a053fe74c2716c5db5556e7d964eaa2322f814a2fe5ca255383f",
+      "rows": 138240,
+      "safe_member_paths": true
+    },
+    "benchmark-v2": {
+      "sha256": "56a06fcb0035a053fe74c2716c5db5556e7d964eaa2322f814a2fe5ca255383f",
+      "rows": 138240,
+      "safe_member_paths": true
+    },
+    "matched-routing-v1": {
+      "sha256": "668ae5ade171796d333541e432eda4b7c0a77db7d9125b3ca7892a29c7beab7f",
+      "rows": 368640,
+      "safe_member_paths": true
+    },
+    "confidence-gating-v1": {
+      "sha256": "1c9b7991977e0012d6932cc1ec7f36fee411cc5751a8de522693b8f00b248a0f",
+      "rows": 737280,
+      "safe_member_paths": true
+    },
+    "confidence-transfer-v1": {
+      "sha256": "85cd314df6553a2ddfa826191ef8179300a0f80b7bf61f278aaaf83a34f2d747",
+      "rows": 1474560,
+      "safe_member_paths": true
+    },
+    "sensor-transfer-v1": {
+      "sha256": "2cd65590d0ee5b012dc057c1db5c7bf5861e495caa5d6490e9d0378bd923d594",
+      "rows": 258048,
+      "safe_member_paths": true
+    },
+    "recurring-memory-v1": {
+      "sha256": "9ba8aa1e96ca7985a1a18a2c7185d3bcd66a888bcdbde5485edbbe13922643ea",
+      "rows": 294912,
+      "safe_member_paths": true
+    },
+    "recurring-memory-v2": {
+      "sha256": "f707264ce8662c875f7ba3603ca8419d4621cbf702bede54eee737e235e8a5b8",
+      "rows": 294912,
+      "safe_member_paths": true
+    },
+    "forgetting-v1": {
+      "sha256": "a2f83a4d57a4d71a43c23a3d30802f1ae0e195bedf0a0f3b45987f1659981d6f",
+      "rows": 393216,
+      "safe_member_paths": true
+    }
+  },
+  "trace_rows": 4098048,
+  "privacy_pattern_hits": 0
+}

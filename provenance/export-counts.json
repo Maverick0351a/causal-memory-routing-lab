@@ -1,0 +1,16 @@
+{
+  "metric_rows": 208210,
+  "runs": 9,
+  "trace_files": {
+    "benchmark-v1": 180,
+    "benchmark-v2": 180,
+    "matched-routing-v1": 480,
+    "confidence-gating-v1": 480,
+    "confidence-transfer-v1": 960,
+    "sensor-transfer-v1": 168,
+    "recurring-memory-v1": 144,
+    "recurring-memory-v2": 144,
+    "forgetting-v1": 192
+  },
+  "compressed_bytes": 728066833
+}

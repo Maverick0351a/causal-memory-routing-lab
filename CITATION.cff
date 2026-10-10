@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this research release and the relevant primary papers."
+title: "Causal Memory and Routing Lab"
+type: software
+version: 0.1.0
+date-released: 2026-10-10
+license: Apache-2.0
+repository-code: "https://github.com/Maverick0351a/causal-memory-routing-lab"
+authors:
+  - family-names: Maverick0351a

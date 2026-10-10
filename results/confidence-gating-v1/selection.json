@@ -1,0 +1,115 @@
+{
+  "fixed_grid": [
+    {
+      "alpha": 0.0,
+      "log_loss": 0.6931471805599453
+    },
+    {
+      "alpha": 0.05,
+      "log_loss": 0.6766509632262755
+    },
+    {
+      "alpha": 0.1,
+      "log_loss": 0.6613917984537679
+    },
+    {
+      "alpha": 0.15,
+      "log_loss": 0.6473288699432954
+    },
+    {
+      "alpha": 0.2,
+      "log_loss": 0.6344325132575184
+    },
+    {
+      "alpha": 0.25,
+      "log_loss": 0.6226839336149039
+    },
+    {
+      "alpha": 0.3,
+      "log_loss": 0.6120753074244889
+    },
+    {
+      "alpha": 0.35,
+      "log_loss": 0.6026103030802101
+    },
+    {
+      "alpha": 0.4,
+      "log_loss": 0.5943050958056892
+    },
+    {
+      "alpha": 0.45,
+      "log_loss": 0.5871900053415645
+    },
+    {
+      "alpha": 0.5,
+      "log_loss": 0.5813119655680522
+    },
+    {
+      "alpha": 0.55,
+      "log_loss": 0.5767381618953399
+    },
+    {
+      "alpha": 0.6,
+      "log_loss": 0.5735613825570075
+    },
+    {
+      "alpha": 0.65,
+      "log_loss": 0.5719079959506282
+    },
+    {
+      "alpha": 0.7,
+      "log_loss": 0.5719501361581067
+    },
+    {
+      "alpha": 0.75,
+      "log_loss": 0.5739249775881653
+    },
+    {
+      "alpha": 0.8,
+      "log_loss": 0.5781666752308868
+    },
+    {
+      "alpha": 0.85,
+      "log_loss": 0.5851626325282231
+    },
+    {
+      "alpha": 0.9,
+      "log_loss": 0.595661061267201
+    },
+    {
+      "alpha": 0.95,
+      "log_loss": 0.6109012714389775
+    },
+    {
+      "alpha": 1.0,
+      "log_loss": 0.6331974038894747
+    }
+  ],
+  "adaptive_candidates": [
+    {
+      "penalty": 0.0,
+      "log_loss": 0.5157173689361807
+    },
+    {
+      "penalty": 0.001,
+      "log_loss": 0.5159986272413337
+    },
+    {
+      "penalty": 0.01,
+      "log_loss": 0.5187511912627761
+    }
+  ],
+  "selected_fixed_alpha": 0.65,
+  "selected_gate_index": 0,
+  "selected_penalty": 0.0,
+  "validation_data_sha256": "0b6eb56084cf9bf73965c6761ee5609cf16fc8adab5b01550fc1298a0ad77753",
+  "validation_examples": 49152,
+  "selected_checkpoint": "gate_0.npz",
+  "phase": "locked before any test generation",
+  "created_utc": "2026-10-10T18:07:27.538460+00:00",
+  "checkpoint_hashes": {
+    "gate_0.npz": "ea13900be7487f6030189f4fc80545d975ee47a58aa46b2c3117412eab37fe4f",
+    "gate_1.npz": "cf03c78748756514698ac202fe4671cc41b42a2b21df3c3ad9627e22da60df5e",
+    "gate_2.npz": "7cb178dfc3bb043260163794254597ef91c641dc2491ae3e4d5e553dddaf2d45"
+  }
+}

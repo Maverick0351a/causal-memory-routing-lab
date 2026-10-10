@@ -1,0 +1,95 @@
+{
+  "1031001": {
+    "seed": 1031001,
+    "loss_by_epoch": [
+      0.5642475111373273,
+      0.47739684356739387,
+      0.45676873104477556,
+      0.45390427165455727,
+      0.44501522267589116,
+      0.44750958838243304,
+      0.45038557961945447,
+      0.4445260777830831,
+      0.4441230137986115,
+      0.44247524133681265,
+      0.44158275234686245,
+      0.44024091473588456
+    ],
+    "examples_seen": 98304,
+    "updates": 3072,
+    "parameters": 1036,
+    "input_sha256": "6c47cfac87f7b360d5f59a97c53cd2dc1ea5e1d8f0d82e41daa7ca54b1353356",
+    "training_cases": [
+      "recurring",
+      "recurring",
+      "noisy_cues",
+      "noisy_cues",
+      "mapping_change",
+      "repeated_changes",
+      "repeated_changes",
+      "noisy_changes"
+    ]
+  },
+  "1031002": {
+    "seed": 1031002,
+    "loss_by_epoch": [
+      0.5614600274089505,
+      0.47887246000224687,
+      0.46030383079855597,
+      0.45577310516441316,
+      0.44823273215100334,
+      0.45240046379911053,
+      0.45010273421878555,
+      0.44677299768870704,
+      0.44489900126624726,
+      0.44519030759199574,
+      0.44380431041319823,
+      0.4431361707276882
+    ],
+    "examples_seen": 98304,
+    "updates": 3072,
+    "parameters": 1036,
+    "input_sha256": "6c47cfac87f7b360d5f59a97c53cd2dc1ea5e1d8f0d82e41daa7ca54b1353356",
+    "training_cases": [
+      "recurring",
+      "recurring",
+      "noisy_cues",
+      "noisy_cues",
+      "mapping_change",
+      "repeated_changes",
+      "repeated_changes",
+      "noisy_changes"
+    ]
+  },
+  "1031003": {
+    "seed": 1031003,
+    "loss_by_epoch": [
+      0.5665681766561108,
+      0.48413580230912606,
+      0.46218179901813305,
+      0.45736862679833235,
+      0.4455335020967869,
+      0.4522261258621756,
+      0.45068842576424517,
+      0.44614759052754394,
+      0.44351131684888273,
+      0.4434987004526087,
+      0.4422160463107327,
+      0.44168000658625517
+    ],
+    "examples_seen": 98304,
+    "updates": 3072,
+    "parameters": 1036,
+    "input_sha256": "6c47cfac87f7b360d5f59a97c53cd2dc1ea5e1d8f0d82e41daa7ca54b1353356",
+    "training_cases": [
+      "recurring",
+      "recurring",
+      "noisy_cues",
+      "noisy_cues",
+      "mapping_change",
+      "repeated_changes",
+      "repeated_changes",
+      "noisy_changes"
+    ]
+  }
+}

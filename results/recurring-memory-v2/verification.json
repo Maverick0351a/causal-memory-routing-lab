@@ -1,0 +1,142 @@
+{
+  "status": "PASS",
+  "test_streams": 144,
+  "policy_traces": 1008,
+  "raw_predictions_replayed": 2064384,
+  "gated_companion_probabilities_replayed": 2064384,
+  "all_predictions_routes_and_traces_exact": true,
+  "expert_refit_exact": true,
+  "all_three_recurrent_refits_exact": true,
+  "all_validation_selection_recomputed": true,
+  "metrics_slices_delays_bootstraps_gates_exact": true,
+  "gate_byte_identical_and_immutable": true,
+  "all_frozen_weights_unchanged": true,
+  "disabled_memory_equals_recency": true,
+  "shuffle_preserves_history_capacity_and_neighbor_counts": true,
+  "no_feedback_memory_empty": true,
+  "stored_expert_errors_derived_only_from_public_feedback": true,
+  "source_and_recorded_artifact_hashes_match": true,
+  "persistent_memory_resumes": {
+    "memory": {
+      "step": 1024,
+      "prior_feedback_rows": 1024,
+      "future_rows_excluded": 1024,
+      "probability": 0.11304688273159944,
+      "gated_probability": 0.18765826937687363,
+      "alpha": 0.8071823605609518,
+      "route": [
+        0.046918478791685043,
+        0.0531656016630466,
+        0.8316499357164204,
+        0.0682659838288479
+      ],
+      "retrieved_count": 64,
+      "retrieved_max_step": 1022
+    },
+    "shuffled_memory": {
+      "step": 1024,
+      "prior_feedback_rows": 1024,
+      "future_rows_excluded": 1024,
+      "probability": 0.3804050726242219,
+      "gated_probability": 0.42148016538035504,
+      "alpha": 0.6565482026919797,
+      "route": [
+        0.35832757394471465,
+        0.2790657951842205,
+        0.11633193100368312,
+        0.24627469986738168
+      ],
+      "retrieved_count": 64,
+      "retrieved_max_step": 998
+    },
+    "context_cache": {
+      "step": 1024,
+      "prior_feedback_rows": 1024,
+      "future_rows_excluded": 1024,
+      "probability": 0.15622933621371074,
+      "gated_probability": 0.2274431254432902,
+      "alpha": 0.7928450658202448,
+      "route": [
+        0.09999265720292358,
+        0.033413936946603565,
+        0.6701301543820951,
+        0.19646325146837773
+      ],
+      "retrieved_count": 267,
+      "retrieved_max_step": null
+    },
+    "recurrent": {
+      "step": 1024,
+      "prior_feedback_rows": 1024,
+      "future_rows_excluded": 1024,
+      "probability": 0.08220690179391293,
+      "gated_probability": 0.20386466457265173,
+      "alpha": 0.7088085865919977,
+      "route": [
+        0.010704487462192285,
+        0.024649573071872006,
+        0.9304337005811414,
+        0.03421223888479447
+      ],
+      "retrieved_count": 0,
+      "retrieved_max_step": null
+    }
+  },
+  "offline_proof": {
+    "listed_provider_credentials_absent": true,
+    "socket_guard_denied_name_resolution": true,
+    "scope": "Python process guard, not an OS sandbox"
+  },
+  "preservation": {
+    "prior_lab_files_unchanged": 3025,
+    "original_project_files_unchanged": 3,
+    "vendor_clean": true,
+    "vendor_commit": "d8d37bc4de28d2347d8e21405903b29a2891f793",
+    "frozen_gate_sha256": "ea13900be7487f6030189f4fc80545d975ee47a58aa46b2c3117412eab37fe4f",
+    "new_pretrained_weight_files": []
+  },
+  "scientific_gates": {
+    "functional_recall": true,
+    "faster_return_adaptation": true,
+    "quality_preserved": true,
+    "memory_qualified": true,
+    "extra_value_over_context_cache": true,
+    "gated_random_loss_control": true,
+    "components": {
+      "recall": {
+        "memory_disabled_improvement": true,
+        "memory_disabled_upper_below_zero": true,
+        "shuffled_memory_improvement": true,
+        "shuffled_memory_upper_below_zero": true,
+        "recency_improvement": true,
+        "recency_upper_below_zero": true,
+        "recurrent_improvement": true,
+        "recurrent_upper_below_zero": true
+      },
+      "speed": {
+        "recency_two_steps_faster": true,
+        "recency_upper_below_zero": true,
+        "recurrent_two_steps_faster": true,
+        "recurrent_upper_below_zero": true
+      },
+      "quality": {
+        "novel_contexts_loss_preserved": true,
+        "novel_contexts_brier_preserved": true,
+        "novel_contexts_confident_errors_preserved": true,
+        "mapping_change_loss_preserved": true,
+        "mapping_change_brier_preserved": true,
+        "mapping_change_confident_errors_preserved": true,
+        "random_labels_loss_preserved": true,
+        "random_labels_brier_preserved": true,
+        "random_labels_confident_errors_preserved": true,
+        "memory_random_accuracy_near_chance": true,
+        "memory_disabled_random_accuracy_near_chance": true,
+        "shuffled_memory_random_accuracy_near_chance": true,
+        "recency_random_accuracy_near_chance": true,
+        "recurrent_random_accuracy_near_chance": true,
+        "context_cache_random_accuracy_near_chance": true,
+        "fixed_uniform_random_accuracy_near_chance": true
+      }
+    }
+  }
+}

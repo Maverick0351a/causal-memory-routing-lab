@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "replayed_runs": 480,
+  "replayed_steps": 368640,
+  "exact_trace_equality": true,
+  "frozen_evaluation_weights": true,
+  "training_inputs_and_update_budgets_equal": true,
+  "evaluation_inputs_equal": true,
+  "source_snapshot_hashes_equal": true,
+  "metrics_and_bootstrap_recomputed": true,
+  "persistent_memory_resumes": {
+    "autoregressive_71": {
+      "step": 512,
+      "probability": 0.8581865749628407
+    },
+    "joint_71": {
+      "step": 512,
+      "probability": 0.85070166231229
+    }
+  },
+  "preservation": {
+    "prior_lab_artifacts_unchanged": 399,
+    "original_project_files_unchanged": 3
+  },
+  "scientific_gates": {
+    "comparable_size_and_affine_compute": true,
+    "ar_predictive_value": false,
+    "ar_latency_within_budget": false,
+    "autoregressive_learning": true,
+    "autoregressive_negative_control": true,
+    "autoregressive_memory_dependence": true,
+    "joint_learning": true,
+    "joint_negative_control": true,
+    "joint_memory_dependence": true
+  }
+}

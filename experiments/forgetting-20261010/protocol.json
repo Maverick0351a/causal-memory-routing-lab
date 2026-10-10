@@ -1,0 +1,192 @@
+{
+  "id": "forgetting-20261010",
+  "version": 1,
+  "frozen_gate": "results/confidence-transfer-v1/checkpoints/frozen_gate.npz",
+  "frozen_gate_sha256": "ea13900be7487f6030189f4fc80545d975ee47a58aa46b2c3117412eab37fe4f",
+  "calibration_seeds": [
+    1010001,
+    1010002,
+    1010003,
+    1010004,
+    1010005,
+    1010006,
+    1010007,
+    1010008
+  ],
+  "calibration_steps": 1024,
+  "coefficient_seed": 1010901,
+  "coefficient_norm": 3.0,
+  "expert_seeds": [
+    1030001,
+    1030002,
+    1030003,
+    1030004
+  ],
+  "expert_epochs": 160,
+  "expert_learning_rate": 0.05,
+  "expert_l2": 0.001,
+  "training_seeds": [
+    1011001,
+    1011002,
+    1011003,
+    1011004,
+    1011005,
+    1011006,
+    1011007,
+    1011008
+  ],
+  "training_steps": 1024,
+  "recurrent_seeds": [
+    1031001,
+    1031002,
+    1031003
+  ],
+  "training_shuffle_seed": 1032001,
+  "recurrent_hidden": 24,
+  "recurrent_epochs": 12,
+  "recurrent_learning_rate": 0.003,
+  "bptt_steps": 32,
+  "recurrent_temperatures": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "validation_seeds": [
+    1020001,
+    1020002,
+    1020003,
+    1020004,
+    1020005,
+    1020006
+  ],
+  "validation_steps": 1536,
+  "test_seeds": [
+    1060001,
+    1060002,
+    1060003,
+    1060004,
+    1060005,
+    1060006,
+    1060007,
+    1060008,
+    1060009,
+    1060010,
+    1060011,
+    1060012,
+    1060013,
+    1060014,
+    1060015,
+    1060016,
+    1060017,
+    1060018,
+    1060019,
+    1060020,
+    1060021,
+    1060022,
+    1060023,
+    1060024
+  ],
+  "test_steps": 2048,
+  "cases": [
+    "recurring",
+    "noisy_cues",
+    "mapping_change",
+    "repeated_changes",
+    "noisy_changes",
+    "novel_contexts",
+    "random_labels",
+    "no_feedback"
+  ],
+  "selection_cases": [
+    "recurring",
+    "noisy_cues",
+    "mapping_change",
+    "repeated_changes",
+    "noisy_changes"
+  ],
+  "primary_cases": [
+    "mapping_change",
+    "repeated_changes",
+    "noisy_changes"
+  ],
+  "block_interval": [
+    48,
+    96
+  ],
+  "cue_norm": 3.0,
+  "cue_sigma": 0.12,
+  "noisy_cue_sigma": 0.3,
+  "routing_temperature": 8.0,
+  "evidence_warmup": 8,
+  "memory_capacity": 1024,
+  "memory_neighbors": [
+    32,
+    64
+  ],
+  "memory_radii": [
+    0.75,
+    1.25
+  ],
+  "memory_blends": [
+    0.5,
+    1.0
+  ],
+  "cache_capacity": 8,
+  "cache_radii": [
+    0.75,
+    1.25
+  ],
+  "cache_rates": [
+    0.1,
+    0.35
+  ],
+  "cache_blend": 1.0,
+  "shuffled_memory_seed": 1033001,
+  "bootstrap_seed": 1040001,
+  "bootstrap_replicates": 10000,
+  "chance_tolerance": 0.02,
+  "return_window": 16,
+  "recovery_window": 8,
+  "recovery_horizon": 64,
+  "recovery_loss_threshold": 0.55,
+  "resume_step": 1024,
+  "stable_cases": [
+    "recurring",
+    "noisy_cues"
+  ],
+  "training_cases": [
+    "recurring",
+    "recurring",
+    "noisy_cues",
+    "noisy_cues",
+    "mapping_change",
+    "repeated_changes",
+    "repeated_changes",
+    "noisy_changes"
+  ],
+  "selection_stable_weight": 0.5,
+  "change_cycle_blocks": 4,
+  "forget_neighbors": 64,
+  "forget_radius": 1.25,
+  "forget_blend": 1.0,
+  "fading_half_lives": [
+    2.0,
+    8.0,
+    32.0
+  ],
+  "minimum_entry_improvements": {
+    "memory": 0.03,
+    "recency": 0.01,
+    "context_cache": 0.01
+  },
+  "minimum_fading_contribution": 0.01,
+  "minimum_shuffle_improvement": 0.02,
+  "minimum_change_delay_reduction": 2.0,
+  "maximum_delay_excess_over_fast_baselines": 0.5,
+  "maximum_stable_loss_degradation": 0.02,
+  "maximum_confident_error_excess": 0.005,
+  "maximum_entry_brier_excess": 0.01,
+  "maximum_random_loss_above_recency": 0.02,
+  "maximum_random_loss_above_uniform": 0.03,
+  "minimum_cue_separation": 2.0
+}

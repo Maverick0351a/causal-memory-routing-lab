@@ -1,0 +1,74 @@
+{
+  "benchmark-v1": {
+    "filename": "artifacts/benchmark-v1.tar.gz",
+    "sha256": "56a06fcb0035a053fe74c2716c5db5556e7d964eaa2322f814a2fe5ca255383f",
+    "bytes": 3152578,
+    "trace_files": 180,
+    "sqlite_files": 1,
+    "url": "https://huggingface.co/datasets/Maverick03511/causal-memory-routing-lab/resolve/main/artifacts/benchmark-v1.tar.gz"
+  },
+  "benchmark-v2": {
+    "filename": "artifacts/benchmark-v2.tar.gz",
+    "sha256": "56a06fcb0035a053fe74c2716c5db5556e7d964eaa2322f814a2fe5ca255383f",
+    "bytes": 3152578,
+    "trace_files": 180,
+    "sqlite_files": 1,
+    "url": "https://huggingface.co/datasets/Maverick03511/causal-memory-routing-lab/resolve/main/artifacts/benchmark-v2.tar.gz"
+  },
+  "matched-routing-v1": {
+    "filename": "artifacts/matched-routing-v1.tar.gz",
+    "sha256": "668ae5ade171796d333541e432eda4b7c0a77db7d9125b3ca7892a29c7beab7f",
+    "bytes": 8634144,
+    "trace_files": 480,
+    "sqlite_files": 1,
+    "url": "https://huggingface.co/datasets/Maverick03511/causal-memory-routing-lab/resolve/main/artifacts/matched-routing-v1.tar.gz"
+  },
+  "confidence-gating-v1": {
+    "filename": "artifacts/confidence-gating-v1.tar.gz",
+    "sha256": "1c9b7991977e0012d6932cc1ec7f36fee411cc5751a8de522693b8f00b248a0f",
+    "bytes": 19555338,
+    "trace_files": 480,
+    "sqlite_files": 1,
+    "url": "https://huggingface.co/datasets/Maverick03511/causal-memory-routing-lab/resolve/main/artifacts/confidence-gating-v1.tar.gz"
+  },
+  "confidence-transfer-v1": {
+    "filename": "artifacts/confidence-transfer-v1.tar.gz",
+    "sha256": "85cd314df6553a2ddfa826191ef8179300a0f80b7bf61f278aaaf83a34f2d747",
+    "bytes": 44529490,
+    "trace_files": 960,
+    "sqlite_files": 1,
+    "url": "https://huggingface.co/datasets/Maverick03511/causal-memory-routing-lab/resolve/main/artifacts/confidence-transfer-v1.tar.gz"
+  },
+  "sensor-transfer-v1": {
+    "filename": "artifacts/sensor-transfer-v1.tar.gz",
+    "sha256": "2cd65590d0ee5b012dc057c1db5c7bf5861e495caa5d6490e9d0378bd923d594",
+    "bytes": 47789168,
+    "trace_files": 168,
+    "sqlite_files": 1,
+    "url": "https://huggingface.co/datasets/Maverick03511/causal-memory-routing-lab/resolve/main/artifacts/sensor-transfer-v1.tar.gz"
+  },
+  "recurring-memory-v1": {
+    "filename": "artifacts/recurring-memory-v1.tar.gz",
+    "sha256": "9ba8aa1e96ca7985a1a18a2c7185d3bcd66a888bcdbde5485edbbe13922643ea",
+    "bytes": 153493734,
+    "trace_files": 144,
+    "sqlite_files": 1,
+    "url": "https://huggingface.co/datasets/Maverick03511/causal-memory-routing-lab/resolve/main/artifacts/recurring-memory-v1.tar.gz"
+  },
+  "recurring-memory-v2": {
+    "filename": "artifacts/recurring-memory-v2.tar.gz",
+    "sha256": "f707264ce8662c875f7ba3603ca8419d4621cbf702bede54eee737e235e8a5b8",
+    "bytes": 153193915,
+    "trace_files": 144,
+    "sqlite_files": 1,
+    "url": "https://huggingface.co/datasets/Maverick03511/causal-memory-routing-lab/resolve/main/artifacts/recurring-memory-v2.tar.gz"
+  },
+  "forgetting-v1": {
+    "filename": "artifacts/forgetting-v1.tar.gz",
+    "sha256": "a2f83a4d57a4d71a43c23a3d30802f1ae0e195bedf0a0f3b45987f1659981d6f",
+    "bytes": 294565888,
+    "trace_files": 192,
+    "sqlite_files": 1,
+    "url": "https://huggingface.co/datasets/Maverick03511/causal-memory-routing-lab/resolve/main/artifacts/forgetting-v1.tar.gz"
+  }
+}

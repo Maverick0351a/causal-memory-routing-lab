@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "replayed_traces": 960,
+  "replayed_predictions": 1474560,
+  "all_probabilities_and_traces_exact": true,
+  "baseline_selection_recomputed_exactly": true,
+  "frozen_gate_byte_identical": true,
+  "frozen_gate_coefficients_and_normalization_unchanged": true,
+  "metrics_slices_paired_bootstrap_and_default_recomputed": true,
+  "all_policies_saw_equal_causal_base_features": true,
+  "all_recorded_artifact_hashes_equal": true,
+  "persistent_memory_resumes": {
+    "frozen_gate": {
+      "step": 768,
+      "history_strictly_before_step": 768,
+      "base_probability": 0.07173449238214538,
+      "alpha": 0.06379186831829196,
+      "probability": 0.47268014313277534
+    },
+    "online_mixture": {
+      "step": 768,
+      "history_strictly_before_step": 768,
+      "base_probability": 0.07173449238214538,
+      "alpha": 0.02324990134715878,
+      "probability": 0.490042869197494
+    }
+  },
+  "offline_proof": {
+    "listed_provider_credentials_absent": true,
+    "socket_guard_denied_name_resolution": true,
+    "scope": "Python process guard, not an OS sandbox"
+  },
+  "preservation": {
+    "prior_lab_files_unchanged": 1530,
+    "original_project_files_unchanged": 3,
+    "vendor_clean": true,
+    "vendor_commit": "d8d37bc4de28d2347d8e21405903b29a2891f793",
+    "frozen_gate_sha256": "ea13900be7487f6030189f4fc80545d975ee47a58aa46b2c3117412eab37fe4f",
+    "new_pretrained_weight_files": []
+  },
+  "scientific_gates": {
+    "learned_transfer_value": true,
+    "learned_transfer_quality": true,
+    "learned_default_qualified": true,
+    "online_value_over_fixed": true,
+    "online_quality": false,
+    "online_default_qualified": false,
+    "recommended_confidence_default": "frozen_gate",
+    "components": {
+      "learned_value": {
+        "aggregate_improvement": true,
+        "paired_upper_below_zero": true,
+        "short_mixed_loss_preserved": true,
+        "noisy_mixed_loss_preserved": true,
+        "short_noisy_mixed_loss_preserved": true
+      },
+      "learned_quality": {
+        "short_mixed/learnable_entry_first16": true,
+        "short_mixed/random_entry_first16": true,
+        "noisy_mixed/learnable_entry_first16": true,
+        "noisy_mixed/random_entry_first16": true,
+        "short_noisy_mixed/learnable_entry_first16": true,
+        "short_noisy_mixed/random_entry_first16": true,
+        "standard_loss_preserved": true,
+        "random_loss_near_uniform": true,
+        "random_confident_errors_halved": true,
+        "short_mixed_confident_errors_preserved": true,
+        "noisy_mixed_confident_errors_preserved": true,
+        "short_noisy_mixed_confident_errors_preserved": true
+      },
+      "online_value": {
+        "aggregate_improvement": true,
+        "paired_upper_below_zero": true,
+        "short_mixed_loss_preserved": true,
+        "noisy_mixed_loss_preserved": true,
+        "short_noisy_mixed_loss_preserved": true
+      },
+      "online_quality": {
+        "short_mixed/learnable_entry_first16": false,
+        "short_mixed/random_entry_first16": false,
+        "noisy_mixed/learnable_entry_first16": false,
+        "noisy_mixed/random_entry_first16": true,
+        "short_noisy_mixed/learnable_entry_first16": false,
+        "short_noisy_mixed/random_entry_first16": true,
+        "standard_loss_preserved": true,
+        "random_loss_near_uniform": true,
+        "random_confident_errors_halved": true
+      }
+    }
+  }
+}

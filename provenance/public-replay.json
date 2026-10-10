@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "scope": "Public source/input manifests and published synthetic archive, not original private host files",
+  "public_integrity": {
+    "release_files_match": true,
+    "checked_release_files": 178,
+    "scope": "public release only; original host preservation is historical"
+  },
+  "archive_sha256": "a2f83a4d57a4d71a43c23a3d30802f1ae0e195bedf0a0f3b45987f1659981d6f",
+  "raw_predictions_replayed": 3932160,
+  "companion_probabilities_replayed": 3932160,
+  "policy_traces": 1920,
+  "streams": 192,
+  "expert_and_all_recurrent_refits_exact": true,
+  "all_24_validation_scores_and_selection_exact": true,
+  "all_traces_routes_metrics_slices_delays_bootstraps_gates_exact": true,
+  "all_10_history_resumes_exclude_1024_future_rows": true,
+  "offline_proof": {
+    "listed_provider_credentials_absent": true,
+    "socket_guard_denied_name_resolution": true,
+    "scope": "Python process guard, not an OS sandbox"
+  },
+  "scientific_gates": {
+    "entry_value": false,
+    "speed": true,
+    "stable_retention": false,
+    "quality": false,
+    "fading_ablation": true,
+    "forgetting_qualified": false,
+    "gated_random_loss_control": true,
+    "components": {
+      "entry_value": {
+        "memory_minimum_gain": true,
+        "memory_upper_below_zero": true,
+        "recency_minimum_gain": false,
+        "recency_upper_below_zero": false,
+        "context_cache_minimum_gain": true,
+        "context_cache_upper_below_zero": true,
+        "mapping_change_recency_no_hidden_case_harm": true,
+        "mapping_change_context_cache_no_hidden_case_harm": true,
+        "repeated_changes_recency_no_hidden_case_harm": true,
+        "repeated_changes_context_cache_no_hidden_case_harm": true,
+        "noisy_changes_recency_no_hidden_case_harm": false,
+        "noisy_changes_context_cache_no_hidden_case_harm": true
+      },
+      "speed": {
+        "memory_minimum_two_steps": true,
+        "memory_upper_below_zero": true,
+        "recency_not_slower": true,
+        "context_cache_not_slower": true
+      },
+      "stable_retention": {
+        "recurring_raw_log_loss": false,
+        "recurring_return_first16_log_loss": false,
+        "recurring_confident_errors": true,
+        "noisy_cues_raw_log_loss": false,
+        "noisy_cues_return_first16_log_loss": false,
+        "noisy_cues_confident_errors": true
+      },
+      "quality": {
+        "mapping_change_recency_brier": true,
+        "mapping_change_recency_confidently_wrong_rate": true,
+        "mapping_change_context_cache_brier": true,
+        "mapping_change_context_cache_confidently_wrong_rate": true,
+        "repeated_changes_recency_brier": true,
+        "repeated_changes_recency_confidently_wrong_rate": true,
+        "repeated_changes_context_cache_brier": true,
+        "repeated_changes_context_cache_confidently_wrong_rate": true,
+        "noisy_changes_recency_brier": false,
+        "noisy_changes_recency_confidently_wrong_rate": true,
+        "noisy_changes_context_cache_brier": true,
+        "noisy_changes_context_cache_confidently_wrong_rate": true,
+        "forgetting_random_accuracy": true,
+        "recent_uniform_random_accuracy": true,
+        "shuffled_forgetting_random_accuracy": true,
+        "memory_random_accuracy": true,
+        "memory_disabled_random_accuracy": true,
+        "shuffled_memory_random_accuracy": true,
+        "recency_random_accuracy": true,
+        "recurrent_random_accuracy": true,
+        "context_cache_random_accuracy": true,
+        "fixed_uniform_random_accuracy": true,
+        "random_loss_vs_recency": true
+      },
+      "fading_ablation": {
+        "recent_uniform_minimum_gain": true,
+        "recent_uniform_upper_below_zero": true,
+        "shuffled_forgetting_minimum_gain": true,
+        "shuffled_forgetting_upper_below_zero": true
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "replayed_traces": 480,
+  "replayed_predictions": 737280,
+  "all_probabilities_and_traces_exact": true,
+  "all_three_candidates_refitted_exactly": true,
+  "validation_selection_recomputed": true,
+  "all_policies_saw_equal_causal_features": true,
+  "evaluation_parameters_frozen": true,
+  "metrics_slices_bootstrap_gates_recomputed": true,
+  "all_recorded_artifact_hashes_equal": true,
+  "persistent_memory_resume": {
+    "step": 768,
+    "history_rows_strictly_before_step": 768,
+    "probability": 0.5217785197532722,
+    "alpha": 0.06396054778252336
+  },
+  "preservation": {
+    "prior_lab_files_unchanged": 994,
+    "original_project_files_unchanged": 3,
+    "vendor_commit": "d8d37bc4de28d2347d8e21405903b29a2891f793",
+    "vendor_clean": true,
+    "new_pretrained_weight_files": []
+  },
+  "scientific_gates": {
+    "adaptive_value_over_fixed": true,
+    "deployment_quality": true,
+    "replacement_supported": true,
+    "quality_components": {
+      "standard_log_loss_preserved": true,
+      "fast_switch_log_loss_preserved": true,
+      "standard_accuracy_preserved": true,
+      "standard_switch_log_loss_preserved": true,
+      "fast_switch_accuracy_preserved": true,
+      "fast_switch_switch_log_loss_preserved": true,
+      "mixed_accuracy_preserved": true,
+      "mixed_switch_log_loss_preserved": true,
+      "random_log_loss_near_uniform": true,
+      "random_confident_errors_halved": true,
+      "mixed_random_confident_errors_halved": true
+    }
+  }
+}

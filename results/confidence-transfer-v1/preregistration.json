@@ -1,0 +1,231 @@
+{
+  "created_utc": "2026-10-10T18:18:17.138219+00:00",
+  "config": {
+    "id": "confidence-transfer-20261010",
+    "version": 1,
+    "frozen_gate": "results/confidence-gating-v1/checkpoints/gate_0.npz",
+    "frozen_gate_sha256": "ea13900be7487f6030189f4fc80545d975ee47a58aa46b2c3117412eab37fe4f",
+    "training_seeds": [
+      410001,
+      410002,
+      410003,
+      410004,
+      410005,
+      410006,
+      410007,
+      410008,
+      410009,
+      410010,
+      410011,
+      410012
+    ],
+    "validation_seeds": [
+      420001,
+      420002,
+      420003,
+      420004,
+      420005,
+      420006,
+      420007,
+      420008
+    ],
+    "test_seeds": [
+      920001,
+      920002,
+      920003,
+      920004,
+      920005,
+      920006,
+      920007,
+      920008,
+      920009,
+      920010,
+      920011,
+      920012,
+      920013,
+      920014,
+      920015,
+      920016,
+      920017,
+      920018,
+      920019,
+      920020,
+      920021,
+      920022,
+      920023,
+      920024
+    ],
+    "train_steps": 1024,
+    "validation_steps": 1536,
+    "test_steps": 1536,
+    "fit_conditions": [
+      "standard",
+      "fast_switch",
+      "random_labels",
+      "mixed"
+    ],
+    "sharing_candidates": [
+      0.0,
+      0.005,
+      0.02,
+      0.08,
+      0.25
+    ],
+    "learning_rate_candidates": [
+      0.25,
+      1.0,
+      4.0
+    ],
+    "alpha_grid": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "prior_clip": 1e-06,
+    "log_odds_clip": 20.0,
+    "bootstrap_seed": 430001,
+    "bootstrap_replicates": 10000,
+    "minimum_log_loss_improvement": 0.01,
+    "maximum_case_degradation": 0.01,
+    "maximum_transition_degradation": 0.03,
+    "maximum_standard_degradation": 0.02,
+    "maximum_random_loss_above_uniform": 0.03,
+    "maximum_confident_error_ratio": 0.5,
+    "maximum_ood_confident_error_excess": 0.01,
+    "resume_step": 768,
+    "ood_cases": [
+      "short_mixed",
+      "noisy_mixed",
+      "short_noisy_mixed"
+    ],
+    "cases": {
+      "reference_mixed": {
+        "condition": "mixed",
+        "noise_probability": 0.05,
+        "mixed_mode_interval": [
+          96,
+          192
+        ],
+        "feedback": true
+      },
+      "short_mixed": {
+        "condition": "mixed",
+        "noise_probability": 0.05,
+        "mixed_mode_interval": [
+          16,
+          48
+        ],
+        "feedback": true
+      },
+      "noisy_mixed": {
+        "condition": "mixed",
+        "noise_probability": 0.2,
+        "mixed_mode_interval": [
+          96,
+          192
+        ],
+        "feedback": true
+      },
+      "short_noisy_mixed": {
+        "condition": "mixed",
+        "noise_probability": 0.2,
+        "mixed_mode_interval": [
+          16,
+          48
+        ],
+        "feedback": true
+      },
+      "standard": {
+        "condition": "standard",
+        "noise_probability": 0.05,
+        "mixed_mode_interval": [
+          96,
+          192
+        ],
+        "feedback": true
+      },
+      "noisy_standard": {
+        "condition": "standard",
+        "noise_probability": 0.2,
+        "mixed_mode_interval": [
+          96,
+          192
+        ],
+        "feedback": true
+      },
+      "random_labels": {
+        "condition": "random_labels",
+        "noise_probability": 0.05,
+        "mixed_mode_interval": [
+          96,
+          192
+        ],
+        "feedback": true
+      },
+      "no_feedback": {
+        "condition": "mixed",
+        "noise_probability": 0.2,
+        "mixed_mode_interval": [
+          16,
+          48
+        ],
+        "feedback": false
+      }
+    }
+  },
+  "source_hashes": {
+    "experiments\\confidence-transfer-20261010\\protocol.json": "57817cfcca871a7c69349106f2d1608e2bc820ecc69b7119c69287ef726a10f2",
+    "experiments\\confidence-transfer-20261010\\PROTOCOL.md": "bababc0ec9cd3eacaf3cca0b8a51c90e6f87e0dd46e59ea0ffe33db45b905bed",
+    "experiments\\confidence-transfer-20261010\\preservation.json": "03f3a4acb617aaaa109478d475e1051743163bf5602bdfcbc7fe2f32858e0f35",
+    "experiments\\confidence-gating-20261010\\protocol.json": "c834f28fad84caaa5533798013d708f5de837eda02c6c44aac9f2c3b5959a47b",
+    "results\\confidence-gating-v1\\checkpoints\\gate_0.npz": "ea13900be7487f6030189f4fc80545d975ee47a58aa46b2c3117412eab37fe4f",
+    "Run-Transfer.ps1": "053f1174a7e6538886ea91eabe1abef888d0153f9c03a4817218fca4a45ce3eb",
+    "scripts\\offline_guard\\sitecustomize.py": "8c7ba956274b40d9ee482a5ce8005f98d4a3ad6c4447125d9a4fe17e7339b446",
+    "transfer_lab\\__init__.py": "297bdef23ae4a1893d601ac84ad7c31090588c4922f603b4a6a64db84aad2f12",
+    "transfer_lab\\benchmark.py": "72f8bbcfab0c6f0868514986edaf455593ee69970d0ea056f14198f85c518529",
+    "transfer_lab\\experiment.py": "2d4586651d1116fe478df29e70e22322a2eb5879ad64f28ffb556ee8768100ac",
+    "transfer_lab\\plot.py": "e6148df16ea607cfcbbf22fe192011de1b3fe5a4f0a677ab809edbfe46aa3110",
+    "transfer_lab\\policy.py": "26e5bd6c2b33ecba03891fe8612f7d7585d5c2844f01421c0e462771419c804f",
+    "transfer_lab\\prepare.py": "1fa3ce524ff1c764d2b1091d8350e6c727b4d635f80e12ab1c88d9c58a49ab8b",
+    "transfer_lab\\verify.py": "a925d85067dd8b019741279e8c9fcbf23254da0872e031afe33829c877da7822",
+    "transfer_tests\\test_transfer.py": "326cb5fec5c18bc856635e866e3807e497e1c26637e9e7b4a7f632e8cdf6de11",
+    "archlab\\__init__.py": "efbe2faa3b101ca4ec8c0fc15028b676fe77d2957bfb9d7d35b11d1f3519c8c8",
+    "archlab\\benchmark.py": "c216a2be7295474e4e22f323f0e4635880b7d7b1458f4cc8846e04468977a6e3",
+    "archlab\\controllers.py": "33f46385be52ed07493d61f272b638fc993d77d84dd9b5dbbcae9621a3b9942e",
+    "archlab\\embedding.py": "ea4998b707b379b8edd6b217de6cf91d772250aeb9035322417ba0b8012491ef",
+    "archlab\\matched.py": "7649bc382a89ea4c96699141e6e99d7ab6ec20c71ccb938ea459e8a2ff9170c4",
+    "archlab\\memory.py": "68a4159a7449f3df2fceb3ea7e1742fa636be64feadb32cd8f46ddbdf24d782a",
+    "archlab\\public.py": "17f4cca8b6777132de2e777f3abfd5b07386ae4ac1b1c8e3fc17946dc38dcb16",
+    "confidence_lab\\__init__.py": "213eff47dabd772bc63dd7b9c4fb3f4a3f2508ec8ef42600d0ef073de118808b",
+    "confidence_lab\\benchmark.py": "572c539e6e31108eb6df8b471a0299f706e5ba33dd6b896505a34709d9506c9b",
+    "confidence_lab\\experiment.py": "6efc73efcb08fd4408142204a9e2ecadd847208b58481ef8de0c239684b12f63",
+    "confidence_lab\\policy.py": "edf04837ccc8d60cb5a84ee606a047f9ecdc79e87ffb1f7f0ac20e32079faee4"
+  },
+  "phase": "before all new training/validation/test generation",
+  "python": "3.11.15 (main, Jul 23 2026, 14:42:43) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "[redacted local path]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "offline_proof": {
+    "listed_provider_credentials_absent": true,
+    "socket_guard_denied_name_resolution": true,
+    "scope": "Python process guard, not an OS sandbox"
+  }
+}

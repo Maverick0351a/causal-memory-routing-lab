@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "tests": 206,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "seconds": 18.085,
+  "scope": "194 retained scientific/local tests with public-only integrity adapters; 12 public assembly and chart checks",
+  "portable_source_manifest_sha256": "888a2b24b3bb7cb7394076f8a980547597e377af90835c67fa8adb69bddfe2cc"
+}

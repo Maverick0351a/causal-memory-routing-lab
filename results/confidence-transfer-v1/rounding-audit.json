@@ -1,0 +1,66 @@
+{
+  "changed_class_decisions": 6,
+  "largest_base_distance_from_half": 5.551115123125783e-17,
+  "differences": [
+    {
+      "case": "reference_mixed",
+      "seed": 920023,
+      "step": 8,
+      "base_probability": 0.49999999999999994,
+      "recency_probability": 0.49999999999999994,
+      "online_probability": 0.5,
+      "online_alpha": 0.22980432962210856,
+      "distance_from_half": 5.551115123125783e-17
+    },
+    {
+      "case": "short_mixed",
+      "seed": 920023,
+      "step": 8,
+      "base_probability": 0.49999999999999994,
+      "recency_probability": 0.49999999999999994,
+      "online_probability": 0.5,
+      "online_alpha": 0.22980432962210856,
+      "distance_from_half": 5.551115123125783e-17
+    },
+    {
+      "case": "noisy_mixed",
+      "seed": 920023,
+      "step": 8,
+      "base_probability": 0.49999999999999994,
+      "recency_probability": 0.49999999999999994,
+      "online_probability": 0.5,
+      "online_alpha": 0.22980432962210856,
+      "distance_from_half": 5.551115123125783e-17
+    },
+    {
+      "case": "short_noisy_mixed",
+      "seed": 920023,
+      "step": 8,
+      "base_probability": 0.49999999999999994,
+      "recency_probability": 0.49999999999999994,
+      "online_probability": 0.5,
+      "online_alpha": 0.22980432962210856,
+      "distance_from_half": 5.551115123125783e-17
+    },
+    {
+      "case": "standard",
+      "seed": 920023,
+      "step": 8,
+      "base_probability": 0.49999999999999994,
+      "recency_probability": 0.49999999999999994,
+      "online_probability": 0.5,
+      "online_alpha": 0.22980432962210856,
+      "distance_from_half": 5.551115123125783e-17
+    },
+    {
+      "case": "noisy_standard",
+      "seed": 920023,
+      "step": 8,
+      "base_probability": 0.49999999999999994,
+      "recency_probability": 0.49999999999999994,
+      "online_probability": 0.5,
+      "online_alpha": 0.22980432962210856,
+      "distance_from_half": 5.551115123125783e-17
+    }
+  ]
+}

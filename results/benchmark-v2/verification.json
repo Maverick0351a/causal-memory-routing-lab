@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "replayed_runs": 180,
+  "replayed_steps": 138240,
+  "exact_trace_equality": true,
+  "memory_resume_step": 512,
+  "memory_resume_probability": 0.884199204465219,
+  "retrieval": [
+    {
+      "step": 507,
+      "text": "bit0_1 bit1_0",
+      "score": 0.9999999999999998
+    },
+    {
+      "step": 504,
+      "text": "bit0_1 bit1_0",
+      "score": 0.9999999999999998
+    },
+    {
+      "step": 502,
+      "text": "bit0_1 bit1_0",
+      "score": 0.9999999999999998
+    }
+  ],
+  "existing_files_unchanged": 3
+}

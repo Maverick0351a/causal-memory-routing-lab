@@ -1,0 +1,170 @@
+{
+  "memory": {
+    "capacity": 1024,
+    "neighbors": 64,
+    "radius": 1.25,
+    "blend": 1.0
+  },
+  "cache": {
+    "capacity": 8,
+    "radius": 1.25,
+    "rate": 0.1,
+    "blend": 1.0
+  },
+  "recurrent": {
+    "seed": 731001,
+    "temperature": 2.0
+  },
+  "candidate_grids": {
+    "memory": [
+      {
+        "capacity": 1024,
+        "neighbors": 32,
+        "radius": 0.75,
+        "blend": 0.5,
+        "validation_log_loss": 0.44021246557587895
+      },
+      {
+        "capacity": 1024,
+        "neighbors": 32,
+        "radius": 0.75,
+        "blend": 1.0,
+        "validation_log_loss": 0.4239443366720868
+      },
+      {
+        "capacity": 1024,
+        "neighbors": 32,
+        "radius": 1.25,
+        "blend": 0.5,
+        "validation_log_loss": 0.4363045284775054
+      },
+      {
+        "capacity": 1024,
+        "neighbors": 32,
+        "radius": 1.25,
+        "blend": 1.0,
+        "validation_log_loss": 0.41681268024205975
+      },
+      {
+        "capacity": 1024,
+        "neighbors": 64,
+        "radius": 0.75,
+        "blend": 0.5,
+        "validation_log_loss": 0.4390031681389832
+      },
+      {
+        "capacity": 1024,
+        "neighbors": 64,
+        "radius": 0.75,
+        "blend": 1.0,
+        "validation_log_loss": 0.4190893396172391
+      },
+      {
+        "capacity": 1024,
+        "neighbors": 64,
+        "radius": 1.25,
+        "blend": 0.5,
+        "validation_log_loss": 0.4344183720493724
+      },
+      {
+        "capacity": 1024,
+        "neighbors": 64,
+        "radius": 1.25,
+        "blend": 1.0,
+        "validation_log_loss": 0.40971066318404414
+      }
+    ],
+    "cache": [
+      {
+        "capacity": 8,
+        "radius": 0.75,
+        "rate": 0.1,
+        "blend": 1.0,
+        "validation_log_loss": 0.46210082303789396
+      },
+      {
+        "capacity": 8,
+        "radius": 0.75,
+        "rate": 0.35,
+        "blend": 1.0,
+        "validation_log_loss": 0.49575994050992
+      },
+      {
+        "capacity": 8,
+        "radius": 1.25,
+        "rate": 0.1,
+        "blend": 1.0,
+        "validation_log_loss": 0.4334187732290875
+      },
+      {
+        "capacity": 8,
+        "radius": 1.25,
+        "rate": 0.35,
+        "blend": 1.0,
+        "validation_log_loss": 0.49298148122880664
+      }
+    ],
+    "recurrent": [
+      {
+        "seed": 731001,
+        "temperature": 0.5,
+        "validation_log_loss": 0.5398600329074797
+      },
+      {
+        "seed": 731001,
+        "temperature": 1.0,
+        "validation_log_loss": 0.5212374126329208
+      },
+      {
+        "seed": 731001,
+        "temperature": 2.0,
+        "validation_log_loss": 0.5155452670186239
+      },
+      {
+        "seed": 731002,
+        "temperature": 0.5,
+        "validation_log_loss": 0.5543383010017259
+      },
+      {
+        "seed": 731002,
+        "temperature": 1.0,
+        "validation_log_loss": 0.5317726255567761
+      },
+      {
+        "seed": 731002,
+        "temperature": 2.0,
+        "validation_log_loss": 0.5228318836311101
+      },
+      {
+        "seed": 731003,
+        "temperature": 0.5,
+        "validation_log_loss": 0.5945442080063604
+      },
+      {
+        "seed": 731003,
+        "temperature": 1.0,
+        "validation_log_loss": 0.5619593040007338
+      },
+      {
+        "seed": 731003,
+        "temperature": 2.0,
+        "validation_log_loss": 0.5391874063571905
+      }
+    ]
+  },
+  "selected_indices": {
+    "memory": 7,
+    "cache": 2,
+    "recurrent": 2
+  },
+  "validation_examples": 18432,
+  "selection_cases": [
+    "recurring",
+    "noisy_cues"
+  ],
+  "validation_data_sha256": "ef91d53cbd7e63d47c2076b695ef0c99d72e1ad6cbd6047ff223a10cd1ec73ab",
+  "created_utc": "2026-10-10T19:09:17.696780+00:00",
+  "phase": "locked before ANY held-out stream",
+  "experts_sha256": "d5b32f73424d77744181c6a6bd70c7cc804e9627b601ad3583a9703abbeb0725",
+  "selected_router_sha256": "6b94eecd49c019f31a765abe9b480ac27a0f361db237f0c6aa58aa44b359856c"
+}

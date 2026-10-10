@@ -1,0 +1,170 @@
+{
+  "memory": {
+    "capacity": 1024,
+    "neighbors": 64,
+    "radius": 1.25,
+    "blend": 1.0
+  },
+  "cache": {
+    "capacity": 8,
+    "radius": 1.25,
+    "rate": 0.1,
+    "blend": 1.0
+  },
+  "recurrent": {
+    "seed": 631002,
+    "temperature": 1.0
+  },
+  "candidate_grids": {
+    "memory": [
+      {
+        "capacity": 1024,
+        "neighbors": 32,
+        "radius": 0.75,
+        "blend": 0.5,
+        "validation_log_loss": 0.4595988981345553
+      },
+      {
+        "capacity": 1024,
+        "neighbors": 32,
+        "radius": 0.75,
+        "blend": 1.0,
+        "validation_log_loss": 0.44475288524632095
+      },
+      {
+        "capacity": 1024,
+        "neighbors": 32,
+        "radius": 1.25,
+        "blend": 0.5,
+        "validation_log_loss": 0.4563190551094167
+      },
+      {
+        "capacity": 1024,
+        "neighbors": 32,
+        "radius": 1.25,
+        "blend": 1.0,
+        "validation_log_loss": 0.43812641416551656
+      },
+      {
+        "capacity": 1024,
+        "neighbors": 64,
+        "radius": 0.75,
+        "blend": 0.5,
+        "validation_log_loss": 0.457914479540124
+      },
+      {
+        "capacity": 1024,
+        "neighbors": 64,
+        "radius": 0.75,
+        "blend": 1.0,
+        "validation_log_loss": 0.43896966499520945
+      },
+      {
+        "capacity": 1024,
+        "neighbors": 64,
+        "radius": 1.25,
+        "blend": 0.5,
+        "validation_log_loss": 0.4538726237396699
+      },
+      {
+        "capacity": 1024,
+        "neighbors": 64,
+        "radius": 1.25,
+        "blend": 1.0,
+        "validation_log_loss": 0.42995923553625043
+      }
+    ],
+    "cache": [
+      {
+        "capacity": 8,
+        "radius": 0.75,
+        "rate": 0.1,
+        "blend": 1.0,
+        "validation_log_loss": 0.47849618599723825
+      },
+      {
+        "capacity": 8,
+        "radius": 0.75,
+        "rate": 0.35,
+        "blend": 1.0,
+        "validation_log_loss": 0.5129986753843185
+      },
+      {
+        "capacity": 8,
+        "radius": 1.25,
+        "rate": 0.1,
+        "blend": 1.0,
+        "validation_log_loss": 0.4496102266822588
+      },
+      {
+        "capacity": 8,
+        "radius": 1.25,
+        "rate": 0.35,
+        "blend": 1.0,
+        "validation_log_loss": 0.5103054571599076
+      }
+    ],
+    "recurrent": [
+      {
+        "seed": 631001,
+        "temperature": 0.5,
+        "validation_log_loss": 0.5495625100178589
+      },
+      {
+        "seed": 631001,
+        "temperature": 1.0,
+        "validation_log_loss": 0.5317691405787686
+      },
+      {
+        "seed": 631001,
+        "temperature": 2.0,
+        "validation_log_loss": 0.5288938552443939
+      },
+      {
+        "seed": 631002,
+        "temperature": 0.5,
+        "validation_log_loss": 0.536205154249112
+      },
+      {
+        "seed": 631002,
+        "temperature": 1.0,
+        "validation_log_loss": 0.5219340648880889
+      },
+      {
+        "seed": 631002,
+        "temperature": 2.0,
+        "validation_log_loss": 0.5228852983264722
+      },
+      {
+        "seed": 631003,
+        "temperature": 0.5,
+        "validation_log_loss": 0.5737444330909076
+      },
+      {
+        "seed": 631003,
+        "temperature": 1.0,
+        "validation_log_loss": 0.552467763895093
+      },
+      {
+        "seed": 631003,
+        "temperature": 2.0,
+        "validation_log_loss": 0.5419794585774259
+      }
+    ]
+  },
+  "selected_indices": {
+    "memory": 7,
+    "cache": 2,
+    "recurrent": 4
+  },
+  "validation_examples": 18432,
+  "selection_cases": [
+    "recurring",
+    "noisy_cues"
+  ],
+  "validation_data_sha256": "d45eb1377b2b19abde7a261b0a8efff3a875b922ba0cf42d0a417b5ce2062a35",
+  "created_utc": "2026-10-10T18:46:53.996436+00:00",
+  "phase": "locked before ANY held-out stream",
+  "experts_sha256": "7645bd3e1537c35a8c00c9b960d0a6261e2250e3f35b8963a962bbf03f2f1dc3",
+  "selected_router_sha256": "a995c42a2263cadafc7af3424496a73bc9e9a63b0728c4c99d59b9988ef204f5"
+}
