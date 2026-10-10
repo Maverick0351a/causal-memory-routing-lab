@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-10-10T21:00:18.139783+00:00",
+  "status": "PASS files and graph deployment; dataset table viewer pending",
+  "github": {
+    "url": "https://github.com/Maverick0351a/causal-memory-routing-lab",
+    "public": true,
+    "scientific_code_commit": "d1b8a962561e04ced741fcffd8ed936671527434"
+  },
+  "dataset": {
+    "url": "https://huggingface.co/datasets/Maverick03511/causal-memory-routing-lab",
+    "public": true,
+    "revision": "14321189984aeb73cfd53d60129f983d290f1a14",
+    "all_16_released_files_match_remote_size_and_git_or_lfs_digest": true,
+    "archives_matched": 9,
+    "metric_rows_local_validated": 208210,
+    "viewer_status": "Provider response: server is busier than usual; response not ready yet"
+  },
+  "space": {
+    "url": "https://huggingface.co/spaces/Maverick03511/causal-memory-routing-lab",
+    "app_url": "https://maverick03511-causal-memory-routing-lab.static.hf.space",
+    "revision": "a3575cdbe4c77a08c8dba876167c3ee1fe239a0e",
+    "public": true,
+    "sdk": "static",
+    "runtime": "RUNNING",
+    "all_four_released_files_match_remote_git_digest_and_size": true
+  },
+  "tests_passed": 206,
+  "full_public_forgetting_replay": "PASS, scientific qualification FAIL",
+  "privacy_and_original_preservation": "See publication-audit.json; original frozen lab and project files unchanged"
+}

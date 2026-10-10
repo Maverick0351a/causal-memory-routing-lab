@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "live_app": "https://maverick03511-causal-memory-routing-lab.static.hf.space",
+  "space_revision": "a3575cdbe4c77a08c8dba876167c3ee1fe239a0e",
+  "representative_case_each_of_nine_studies": true,
+  "three_svg_charts_for_completed_studies": true,
+  "incomplete_export_keeps_empty_seed_plot_and_trace_charts": true,
+  "policy_toggle_window_bin_width_endpoint_metric_controls": true,
+  "all_ten_policy_labels_readable_with_local_horizontal_scroll": true,
+  "keyboard_focused_point_shows_correct_seed_model_value": true,
+  "svg_download_parses": true,
+  "csv_download_rows_verified": 120,
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "mobile_document_width": 375,
+  "no_document_horizontal_overflow": true,
+  "browser_console_errors_or_warnings": 0,
+  "scope": "Functional browser checks, not an accessibility certification or scientific gate"
+}
