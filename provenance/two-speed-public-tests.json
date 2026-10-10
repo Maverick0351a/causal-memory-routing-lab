@@ -1,0 +1,12 @@
+{
+  "created_utc": "2026-10-10T21:44:23.950127+00:00",
+  "status": "PASS",
+  "tests_passed": 243,
+  "historical_release_tests": 206,
+  "new_scientific_tests": 32,
+  "new_publication_tests": 5,
+  "junit_sha256": "fdcf4881c5db5990c26a69674846dac0a7eb57c845576ca81a603073d470d65a",
+  "log_sha256": "4f633dbc9dc3ca4dbbfcc87965846958cbaa9976351ab2e83eb6e28ac63f385f",
+  "registration_commit": "de640f2fb4157c303e15ae973223e23d4e4795d9",
+  "verification_sha256": "efccb0de22d02594475f3ec16240caaf78cb002ffd20b38563cba84e8c03ec7b"
+}

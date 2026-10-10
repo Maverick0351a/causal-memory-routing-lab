@@ -96,3 +96,27 @@ is not a proof against every possible leakage path or a deployment guarantee.
 
 The checked distinctions are in [the related-work note](experiments/forgetting-20261010/RELATED_RESEARCH.md).
 This focused reference check does not establish novelty or reproduce these full methods.
+
+## Two-speed memory follow-up
+
+The six-world two-speed study is complete and **fails overall qualification**.
+It adapts faster than stable-only memory and retains more than fast-only memory,
+but recency adapts faster, uniform retains more, and quality/minimum-value gates fail.
+See the [interpretation](results/two-speed-v1/INTERPRETATION.md),
+[full results](results/two-speed-v1/RESULTS.md), and
+[frozen protocol](experiments/two-speed-20261010/PREREGISTRATION.md).
+The explorer adds a learning-versus-retention plot with independent-world dots,
+world filters, stable-endpoint controls, keyboard tooltips and SVG legends.
+
+This additive study has its own [index](two-speed-index.json) and numeric NPZ
+archive in the dataset; the historical nine-study indexes remain unchanged.
+Run it locally with the existing NumPy environment:
+
+```text
+python two_speed.py test extension_tests
+python two_speed.py run --output results/my-two-speed-reproduction
+python two_speed.py verify --output results/my-two-speed-reproduction
+```
+
+The code requires no keys, downloads or model services. The full trace archive
+is exposed evaluation evidence and must not be reused as hidden test data.

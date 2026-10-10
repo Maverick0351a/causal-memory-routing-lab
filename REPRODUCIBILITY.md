@@ -56,3 +56,29 @@ python scripts/qca_local.py history show EXPERIMENT_ID
 arrays and sanitized save/reload receipt. No QPU, VLM call or API key is needed.
 Local inventory, credentials, old project files, vendor source, installed
 environments, service configuration and unrelated security research are absent.
+
+## Additive two-speed study
+
+`two_speed.py` preserves the earlier entry point and source inventory. Its new
+protocol and package are hashed in `results/two-speed-v1/preregistration.json`,
+in addition to the unchanged historical source manifest.
+
+```text
+python two_speed.py test extension_tests
+python two_speed.py run --output results/my-two-speed-reproduction
+python two_speed.py verify --output results/my-two-speed-reproduction
+```
+
+For the published run, explicitly download `artifacts/two-speed-v1.tar.gz`
+from the dataset and extract it into a fresh directory; never overwrite a prior
+run. Validate its digest against `two-speed-index.json`. The archive uses
+numeric NPZ traces (`numpy.load(..., allow_pickle=False)`), checkpoints,
+SQLite feedback, frozen source copies, selection and receipts. Then use
+`python two_speed.py verify --output PATH/TO/EXTRACTED_RUN`. Verification
+refits all six worlds and twelve recurrent candidates, repeats all 114
+validation candidates, and reproduces every forecast, metric, interval, gate
+and all eleven strict-prior-feedback history reloads. This repeats the
+consumed evaluation, not a new scientific confirmation.
+
+The new graphs are in `site/two-speed-charts.json`; they are combined with
+the unchanged historical graph data only in the static explorer.

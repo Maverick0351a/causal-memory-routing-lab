@@ -1,0 +1,97 @@
+<svg viewBox="0 0 800 424" role="img" aria-label="Changed-entry first16 log loss (nats) by Stable whole-stream log loss (nats)" xmlns="http://www.w3.org/2000/svg" style="background:#101a2a;font-family:system-ui,sans-serif"><line x1="68" x2="764" y1="290" y2="290" class="gridline" stroke="#314159" stroke-dasharray="3 5"/><text x="58" y="294" text-anchor="end" class="axistext" fill="#abbcd3" font-size="12">0.53</text><line x1="68" x2="764" y1="239.99999999999994" y2="239.99999999999994" class="gridline" stroke="#314159" stroke-dasharray="3 5"/><text x="58" y="243.99999999999994" text-anchor="end" class="axistext" fill="#abbcd3" font-size="12">0.58</text><line x1="68" x2="764" y1="190.00000000000003" y2="190.00000000000003" class="gridline" stroke="#314159" stroke-dasharray="3 5"/><text x="58" y="194.00000000000003" text-anchor="end" class="axistext" fill="#abbcd3" font-size="12">0.62</text><line x1="68" x2="764" y1="139.99999999999997" y2="139.99999999999997" class="gridline" stroke="#314159" stroke-dasharray="3 5"/><text x="58" y="143.99999999999997" text-anchor="end" class="axistext" fill="#abbcd3" font-size="12">0.67</text><line x1="68" x2="764" y1="90.00000000000006" y2="90.00000000000006" class="gridline" stroke="#314159" stroke-dasharray="3 5"/><text x="58" y="94.00000000000006" text-anchor="end" class="axistext" fill="#abbcd3" font-size="12">0.71</text><line x1="68" x2="764" y1="40" y2="40" class="gridline" stroke="#314159" stroke-dasharray="3 5"/><text x="58" y="44" text-anchor="end" class="axistext" fill="#abbcd3" font-size="12">0.76</text><text x="68" y="312" text-anchor="middle" class="axistext" fill="#abbcd3" font-size="12">0.406</text><text x="416.00000000000017" y="312" text-anchor="middle" class="axistext" fill="#abbcd3" font-size="12">0.471</text><text x="764" y="312" text-anchor="middle" class="axistext" fill="#abbcd3" font-size="12">0.537</text><text x="400" y="342" text-anchor="middle" class="axistext" fill="#abbcd3" font-size="12">Stable whole-stream log loss (nats)</text><text x="68" y="23" class="axistext" fill="#abbcd3" font-size="12">Changed-entry first16 log loss (nats)</text><circle cx="348.75522959305215" cy="228.87981978909727" r="6" fill="#83e0d2" fill-opacity="0.75" tabindex="0" class="mark" aria-label="two_speed, world-1 · eight stream seeds averaged, Stable loss 0.458812, Changed-entry loss 0.589198, Recovery 11.176 feedback steps"><title>two_speed
+world-1 · eight stream seeds averaged
+Stable loss 0.458812
+Changed-entry loss 0.589198
+Recovery 11.176 feedback steps</title></circle><circle cx="314.9146039079511" cy="221.31444907658033" r="6" fill="#83e0d2" fill-opacity="0.75" tabindex="0" class="mark" aria-label="two_speed, world-2 · eight stream seeds averaged, Stable loss 0.452474, Changed-entry loss 0.595964, Recovery 12.376 feedback steps"><title>two_speed
+world-2 · eight stream seeds averaged
+Stable loss 0.452474
+Changed-entry loss 0.595964
+Recovery 12.376 feedback steps</title></circle><circle cx="365.2803113769663" cy="251.36311945934384" r="6" fill="#83e0d2" fill-opacity="0.75" tabindex="0" class="mark" aria-label="two_speed, world-3 · eight stream seeds averaged, Stable loss 0.461907, Changed-entry loss 0.569091, Recovery 10.775 feedback steps"><title>two_speed
+world-3 · eight stream seeds averaged
+Stable loss 0.461907
+Changed-entry loss 0.569091
+Recovery 10.775 feedback steps</title></circle><circle cx="383.45642862965457" cy="240.96726823771192" r="6" fill="#83e0d2" fill-opacity="0.75" tabindex="0" class="mark" aria-label="two_speed, world-4 · eight stream seeds averaged, Stable loss 0.465311, Changed-entry loss 0.578388, Recovery 12.066 feedback steps"><title>two_speed
+world-4 · eight stream seeds averaged
+Stable loss 0.465311
+Changed-entry loss 0.578388
+Recovery 12.066 feedback steps</title></circle><circle cx="323.2454183368055" cy="252.15444451432433" r="6" fill="#83e0d2" fill-opacity="0.75" tabindex="0" class="mark" aria-label="two_speed, world-5 · eight stream seeds averaged, Stable loss 0.454034, Changed-entry loss 0.568383, Recovery 10.720 feedback steps"><title>two_speed
+world-5 · eight stream seeds averaged
+Stable loss 0.454034
+Changed-entry loss 0.568383
+Recovery 10.720 feedback steps</title></circle><circle cx="391.6728046515341" cy="226.78638976514003" r="6" fill="#83e0d2" fill-opacity="0.75" tabindex="0" class="mark" aria-label="two_speed, world-6 · eight stream seeds averaged, Stable loss 0.466850, Changed-entry loss 0.591070, Recovery 11.237 feedback steps"><title>two_speed
+world-6 · eight stream seeds averaged
+Stable loss 0.466850
+Changed-entry loss 0.591070
+Recovery 11.237 feedback steps</title></circle><circle cx="219.6281181266099" cy="72.16048165569751" r="6" fill="#fa95b3" fill-opacity="0.75" tabindex="0" class="mark" aria-label="recent_uniform, world-1 · eight stream seeds averaged, Stable loss 0.434627, Changed-entry loss 0.729354, Recovery 20.312 feedback steps"><title>recent_uniform
+world-1 · eight stream seeds averaged
+Stable loss 0.434627
+Changed-entry loss 0.729354
+Recovery 20.312 feedback steps</title></circle><circle cx="178.21191183202973" cy="62.3635068907646" r="6" fill="#fa95b3" fill-opacity="0.75" tabindex="0" class="mark" aria-label="recent_uniform, world-2 · eight stream seeds averaged, Stable loss 0.426869, Changed-entry loss 0.738116, Recovery 20.897 feedback steps"><title>recent_uniform
+world-2 · eight stream seeds averaged
+Stable loss 0.426869
+Changed-entry loss 0.738116
+Recovery 20.897 feedback steps</title></circle><circle cx="234.71914299955668" cy="79.10336902391091" r="6" fill="#fa95b3" fill-opacity="0.75" tabindex="0" class="mark" aria-label="recent_uniform, world-3 · eight stream seeds averaged, Stable loss 0.437453, Changed-entry loss 0.723145, Recovery 21.277 feedback steps"><title>recent_uniform
+world-3 · eight stream seeds averaged
+Stable loss 0.437453
+Changed-entry loss 0.723145
+Recovery 21.277 feedback steps</title></circle><circle cx="240.23728941203237" cy="68.30693195706067" r="6" fill="#fa95b3" fill-opacity="0.75" tabindex="0" class="mark" aria-label="recent_uniform, world-4 · eight stream seeds averaged, Stable loss 0.438487, Changed-entry loss 0.732800, Recovery 19.846 feedback steps"><title>recent_uniform
+world-4 · eight stream seeds averaged
+Stable loss 0.438487
+Changed-entry loss 0.732800
+Recovery 19.846 feedback steps</title></circle><circle cx="174.78159583292359" cy="88.34381793364625" r="6" fill="#fa95b3" fill-opacity="0.75" tabindex="0" class="mark" aria-label="recent_uniform, world-5 · eight stream seeds averaged, Stable loss 0.426227, Changed-entry loss 0.714881, Recovery 18.930 feedback steps"><title>recent_uniform
+world-5 · eight stream seeds averaged
+Stable loss 0.426227
+Changed-entry loss 0.714881
+Recovery 18.930 feedback steps</title></circle><circle cx="262.6076088779816" cy="63.32403254939621" r="6" fill="#fa95b3" fill-opacity="0.75" tabindex="0" class="mark" aria-label="recent_uniform, world-6 · eight stream seeds averaged, Stable loss 0.442677, Changed-entry loss 0.737257, Recovery 21.299 feedback steps"><title>recent_uniform
+world-6 · eight stream seeds averaged
+Stable loss 0.442677
+Changed-entry loss 0.737257
+Recovery 21.299 feedback steps</title></circle><circle cx="268.2447659926262" cy="206.919506961737" r="6" fill="#d1d983" fill-opacity="0.75" tabindex="0" class="mark" aria-label="adaptive_window, world-1 · eight stream seeds averaged, Stable loss 0.443732, Changed-entry loss 0.608837, Recovery 12.171 feedback steps"><title>adaptive_window
+world-1 · eight stream seeds averaged
+Stable loss 0.443732
+Changed-entry loss 0.608837
+Recovery 12.171 feedback steps</title></circle><circle cx="230.90465095106885" cy="194.58461632786845" r="6" fill="#d1d983" fill-opacity="0.75" tabindex="0" class="mark" aria-label="adaptive_window, world-2 · eight stream seeds averaged, Stable loss 0.436739, Changed-entry loss 0.619868, Recovery 13.224 feedback steps"><title>adaptive_window
+world-2 · eight stream seeds averaged
+Stable loss 0.436739
+Changed-entry loss 0.619868
+Recovery 13.224 feedback steps</title></circle><circle cx="282.0364775073332" cy="226.92497363933774" r="6" fill="#d1d983" fill-opacity="0.75" tabindex="0" class="mark" aria-label="adaptive_window, world-3 · eight stream seeds averaged, Stable loss 0.446316, Changed-entry loss 0.590946, Recovery 12.296 feedback steps"><title>adaptive_window
+world-3 · eight stream seeds averaged
+Stable loss 0.446316
+Changed-entry loss 0.590946
+Recovery 12.296 feedback steps</title></circle><circle cx="288.08693177053544" cy="214.7282823648398" r="6" fill="#d1d983" fill-opacity="0.75" tabindex="0" class="mark" aria-label="adaptive_window, world-4 · eight stream seeds averaged, Stable loss 0.447449, Changed-entry loss 0.601854, Recovery 12.752 feedback steps"><title>adaptive_window
+world-4 · eight stream seeds averaged
+Stable loss 0.447449
+Changed-entry loss 0.601854
+Recovery 12.752 feedback steps</title></circle><circle cx="221.92321164128083" cy="221.24224072786674" r="6" fill="#d1d983" fill-opacity="0.75" tabindex="0" class="mark" aria-label="adaptive_window, world-5 · eight stream seeds averaged, Stable loss 0.435056, Changed-entry loss 0.596028, Recovery 12.055 feedback steps"><title>adaptive_window
+world-5 · eight stream seeds averaged
+Stable loss 0.435056
+Changed-entry loss 0.596028
+Recovery 12.055 feedback steps</title></circle><circle cx="307.1372717750619" cy="212.92633537622308" r="6" fill="#d1d983" fill-opacity="0.75" tabindex="0" class="mark" aria-label="adaptive_window, world-6 · eight stream seeds averaged, Stable loss 0.451017, Changed-entry loss 0.603465, Recovery 11.963 feedback steps"><title>adaptive_window
+world-6 · eight stream seeds averaged
+Stable loss 0.451017
+Changed-entry loss 0.603465
+Recovery 11.963 feedback steps</title></circle><circle cx="315.9878035084474" cy="201.64218273347436" r="6" fill="#7dd9a0" fill-opacity="0.75" tabindex="0" class="mark" aria-label="context_cache, world-1 · eight stream seeds averaged, Stable loss 0.452675, Changed-entry loss 0.613557, Recovery 12.222 feedback steps"><title>context_cache
+world-1 · eight stream seeds averaged
+Stable loss 0.452675
+Changed-entry loss 0.613557
+Recovery 12.222 feedback steps</title></circle><circle cx="291.7015293326174" cy="204.2631800663684" r="6" fill="#7dd9a0" fill-opacity="0.75" tabindex="0" class="mark" aria-label="context_cache, world-2 · eight stream seeds averaged, Stable loss 0.448126, Changed-entry loss 0.611213, Recovery 12.316 feedback steps"><title>context_cache
+world-2 · eight stream seeds averaged
+Stable loss 0.448126
+Changed-entry loss 0.611213
+Recovery 12.316 feedback steps</title></circle><circle cx="333.651979462203" cy="223.0394092578223" r="6" fill="#7dd9a0" fill-opacity="0.75" tabindex="0" class="mark" aria-label="context_cache, world-3 · eight stream seeds averaged, Stable loss 0.455983, Changed-entry loss 0.594421, Recovery 12.204 feedback steps"><title>context_cache
+world-3 · eight stream seeds averaged
+Stable loss 0.455983
+Changed-entry loss 0.594421
+Recovery 12.204 feedback steps</title></circle><circle cx="657.2184041670764" cy="267.6364931092354" r="6" fill="#7dd9a0" fill-opacity="0.75" tabindex="0" class="mark" aria-label="context_cache, world-4 · eight stream seeds averaged, Stable loss 0.516586, Changed-entry loss 0.554537, Recovery 10.666 feedback steps"><title>context_cache
+world-4 · eight stream seeds averaged
+Stable loss 0.516586
+Changed-entry loss 0.554537
+Recovery 10.666 feedback steps</title></circle><circle cx="257.7830589405963" cy="214.99377681062003" r="6" fill="#7dd9a0" fill-opacity="0.75" tabindex="0" class="mark" aria-label="context_cache, world-5 · eight stream seeds averaged, Stable loss 0.441773, Changed-entry loss 0.601616, Recovery 11.890 feedback steps"><title>context_cache
+world-5 · eight stream seeds averaged
+Stable loss 0.441773
+Changed-entry loss 0.601616
+Recovery 11.890 feedback steps</title></circle><circle cx="357.73964309639086" cy="199.7251141838252" r="6" fill="#7dd9a0" fill-opacity="0.75" tabindex="0" class="mark" aria-label="context_cache, world-6 · eight stream seeds averaged, Stable loss 0.460495, Changed-entry loss 0.615271, Recovery 12.014 feedback steps"><title>context_cache
+world-6 · eight stream seeds averaged
+Stable loss 0.460495
+Changed-entry loss 0.615271
+Recovery 12.014 feedback steps</title></circle><circle cx="68" cy="375" r="4" fill="#83e0d2"/><text x="78" y="379" fill="#ecf2fb" font-size="12">two_speed</text><circle cx="242" cy="375" r="4" fill="#fa95b3"/><text x="252" y="379" fill="#ecf2fb" font-size="12">recent_uniform</text><circle cx="416" cy="375" r="4" fill="#d1d983"/><text x="426" y="379" fill="#ecf2fb" font-size="12">adaptive_window</text><circle cx="590" cy="375" r="4" fill="#7dd9a0"/><text x="600" y="379" fill="#ecf2fb" font-size="12">context_cache</text><text x="68" y="409" fill="#abbcd3" font-size="11">two-speed-v1 · raw; Whole-stream stable loss; All six worlds</text></svg>

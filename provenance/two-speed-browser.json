@@ -1,0 +1,22 @@
+{
+  "svg_export_world_points": 24,
+  "svg_policy_legends": 4,
+  "svg_sha256": "fa88d1abba4fe1071e2c6db5cc9a88033deeb14b8cceb99212a9c27c81bf4096",
+  "csv_export_rows": 192,
+  "all_csv_values_exact": true,
+  "world_filter_points": 4,
+  "all_world_points": 24,
+  "keyboard_tooltip_pass": true,
+  "all_ten_study_controls_pass": true,
+  "incomplete_study_empty_seed_plot_preserved": true,
+  "random_label_empty_changed_curve_preserved": true,
+  "mobile_viewport": {
+    "width": 390,
+    "height": 844,
+    "document_width": 375,
+    "horizontal_document_overflow": false
+  },
+  "scope": "Browser QA of recorded charts; not an accessibility certification. Full scientific replay tracked separately.",
+  "verified_page_status": "PASS full refit/reselection/replay",
+  "console_errors": 0
+}

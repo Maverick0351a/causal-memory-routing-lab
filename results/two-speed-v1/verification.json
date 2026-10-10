@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-10-10T21:40:59.538995+00:00",
+  "expert_and_all_recurrent_refits_exact": true,
+  "all_validation_candidates_and_selections_exact": true,
+  "all_trace_arrays_metrics_intervals_gates_exact": true,
+  "raw_predictions_replayed": 4325376,
+  "companion_predictions_replayed": 4325376,
+  "policy_history_reloads_exact": 11,
+  "resume_cutoff": 512,
+  "future_rows_excluded": 512,
+  "offline_proof": {
+    "listed_provider_credentials_absent": true,
+    "socket_guard_denied_name_resolution": true,
+    "scope": "Python process guard, not an OS sandbox"
+  },
+  "scientific_qualification": false
+}

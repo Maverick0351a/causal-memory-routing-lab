@@ -1,0 +1,6 @@
+{
+  "kind": "recurrent",
+  "parameters": 1036,
+  "format": 1,
+  "purpose": "inference checkpoint"
+}

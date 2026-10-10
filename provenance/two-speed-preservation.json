@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "original_frozen_lab_files_unchanged": 668,
+  "prior_lab_files_unchanged": 3263,
+  "original_project_files_unchanged": 3,
+  "vendor_clean_pinned": true,
+  "public_prior_files_unchanged": 259,
+  "public_baseline_commit": "d04c71df040f4c02914b4f633bdf51e54397fcf9",
+  "allowed_existing_public_edits": [
+    "DATA_BOUNDARY.md",
+    "README.md",
+    "REPRODUCIBILITY.md",
+    "release-manifest.json",
+    "site/index.html"
+  ],
+  "old_numeric_result_records_unchanged": 8,
+  "public_files_scanned": {
+    "github": 338,
+    "dataset": 19,
+    "space": 5
+  },
+  "forbidden_pattern_hits": 0,
+  "new_archive_members_exact": 631,
+  "limits": "Pattern checks and generated-data allowlists, not general secret detection. Audit history is unbounded; prediction search is bounded."
+}
