@@ -1,0 +1,210 @@
+{
+  "checked_utc": "2026-10-10T21:49:19.053660+00:00",
+  "status": "PASS public repository files and provider deployment; live visual and new dataset viewer checks incomplete",
+  "github": {
+    "url": "https://github.com/Maverick0351a/causal-memory-routing-lab",
+    "public": true,
+    "registration_commit": "de640f2fb4157c303e15ae973223e23d4e4795d9",
+    "results_commit": "6d7cf764bf4cb6bbeae4282e22d97d6bf0584484",
+    "results_commit_independently_matches_github_api": true
+  },
+  "dataset": {
+    "checked_utc": "2026-10-10T21:47:25.877190+00:00",
+    "status": "PASS",
+    "kind": "dataset",
+    "revision": "0e3c67a12ca44e699da3bafb28e260e5ee597861",
+    "public": true,
+    "files_matched": [
+      {
+        "path": "artifacts/benchmark-v1.tar.gz",
+        "sha256": "56a06fcb0035a053fe74c2716c5db5556e7d964eaa2322f814a2fe5ca255383f",
+        "bytes": 3152578,
+        "remote_digest_type": "sha256-lfs"
+      },
+      {
+        "path": "artifacts/benchmark-v2.tar.gz",
+        "sha256": "56a06fcb0035a053fe74c2716c5db5556e7d964eaa2322f814a2fe5ca255383f",
+        "bytes": 3152578,
+        "remote_digest_type": "sha256-lfs"
+      },
+      {
+        "path": "artifacts/confidence-gating-v1.tar.gz",
+        "sha256": "1c9b7991977e0012d6932cc1ec7f36fee411cc5751a8de522693b8f00b248a0f",
+        "bytes": 19555338,
+        "remote_digest_type": "sha256-lfs"
+      },
+      {
+        "path": "artifacts/confidence-transfer-v1.tar.gz",
+        "sha256": "85cd314df6553a2ddfa826191ef8179300a0f80b7bf61f278aaaf83a34f2d747",
+        "bytes": 44529490,
+        "remote_digest_type": "sha256-lfs"
+      },
+      {
+        "path": "artifacts/forgetting-v1.tar.gz",
+        "sha256": "a2f83a4d57a4d71a43c23a3d30802f1ae0e195bedf0a0f3b45987f1659981d6f",
+        "bytes": 294565888,
+        "remote_digest_type": "sha256-lfs"
+      },
+      {
+        "path": "artifacts/matched-routing-v1.tar.gz",
+        "sha256": "668ae5ade171796d333541e432eda4b7c0a77db7d9125b3ca7892a29c7beab7f",
+        "bytes": 8634144,
+        "remote_digest_type": "sha256-lfs"
+      },
+      {
+        "path": "artifacts/recurring-memory-v1.tar.gz",
+        "sha256": "9ba8aa1e96ca7985a1a18a2c7185d3bcd66a888bcdbde5485edbbe13922643ea",
+        "bytes": 153493734,
+        "remote_digest_type": "sha256-lfs"
+      },
+      {
+        "path": "artifacts/recurring-memory-v2.tar.gz",
+        "sha256": "f707264ce8662c875f7ba3603ca8419d4621cbf702bede54eee737e235e8a5b8",
+        "bytes": 153193915,
+        "remote_digest_type": "sha256-lfs"
+      },
+      {
+        "path": "artifacts/sensor-transfer-v1.tar.gz",
+        "sha256": "2cd65590d0ee5b012dc057c1db5c7bf5861e495caa5d6490e9d0378bd923d594",
+        "bytes": 47789168,
+        "remote_digest_type": "sha256-lfs"
+      },
+      {
+        "path": "artifacts/two-speed-v1.tar.gz",
+        "sha256": "0f560c9639adb3f11ed60b9a98c789b6da0ad924e5b12fc8428e7984c503713a",
+        "bytes": 248365199,
+        "remote_digest_type": "sha256-lfs"
+      },
+      {
+        "path": "artifacts-index.json",
+        "sha256": "3f09fdb8aa7a7fc77d305f0de960249c29599056c1b52edd8ab2149bdde24722",
+        "bytes": 3398,
+        "remote_digest_type": "sha1-git-blob"
+      },
+      {
+        "path": "data/metrics.jsonl",
+        "sha256": "44ea25f28aeed74c36404ccfec39a943dff7178fa711573d7b6d1488876f1989",
+        "bytes": 46385344,
+        "remote_digest_type": "sha256-lfs"
+      },
+      {
+        "path": "data/two-speed-metrics.jsonl",
+        "sha256": "454d35751fbfe1d79cbef0fedd46d7c62070e1499774920735e432aeb05ea5bd",
+        "bytes": 29080625,
+        "remote_digest_type": "sha256-lfs"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "468f5b50c970b3d62f97045870141b14854ee3a808dc38f13fa42aefeb457b25",
+        "bytes": 10767,
+        "remote_digest_type": "sha1-git-blob"
+      },
+      {
+        "path": "qca-synthetic.json",
+        "sha256": "c48a98413892b60de398009f4a43a6abd3a9285a709a4772284c518509f443be",
+        "bytes": 13960,
+        "remote_digest_type": "sha1-git-blob"
+      },
+      {
+        "path": "README.md",
+        "sha256": "360bc611c6fe72fe11958bb3c0b21af00434a80e40af3a07a8f3bdfaf2c0fd52",
+        "bytes": 5375,
+        "remote_digest_type": "sha1-git-blob"
+      },
+      {
+        "path": "research-index.json",
+        "sha256": "14ff2436406a2242f292363eb123585351c661d9430f64ea6b0e995ba031cff0",
+        "bytes": 558722,
+        "remote_digest_type": "sha1-git-blob"
+      },
+      {
+        "path": "two-speed-index.json",
+        "sha256": "37ef44bd38c32109782497a486b8bf256ea3b15c19dfee363c0e333dc75dc88d",
+        "bytes": 135612,
+        "remote_digest_type": "sha1-git-blob"
+      },
+      {
+        "path": "release-manifest.json",
+        "sha256": "baae29c97872d607ad03928632a6ecd88c0d1b247ff4f9f9f3be925236ad9832",
+        "bytes": 2566,
+        "remote_digest_type": "sha1-git-blob"
+      }
+    ],
+    "old_files_retained": true
+  },
+  "space": {
+    "checked_utc": "2026-10-10T21:47:41.057194+00:00",
+    "status": "PASS",
+    "kind": "space",
+    "revision": "9efec5660a252d2c60850d5492e556614b047dda",
+    "public": true,
+    "files_matched": [
+      {
+        "path": "index.html",
+        "sha256": "33a05036a17b3a2c9126b74ef1aee3c29d08378067da43ba94a3f245496f376c",
+        "bytes": 12148500,
+        "remote_digest_type": "sha256-lfs"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "468f5b50c970b3d62f97045870141b14854ee3a808dc38f13fa42aefeb457b25",
+        "bytes": 10767,
+        "remote_digest_type": "sha1-git-blob"
+      },
+      {
+        "path": "README.md",
+        "sha256": "12d7fd996620dfe9c3b51b8295834024a1dd1195b6d3e390226c120b33f27f4b",
+        "bytes": 1113,
+        "remote_digest_type": "sha1-git-blob"
+      },
+      {
+        "path": "two-speed-index.json",
+        "sha256": "37ef44bd38c32109782497a486b8bf256ea3b15c19dfee363c0e333dc75dc88d",
+        "bytes": 135612,
+        "remote_digest_type": "sha1-git-blob"
+      },
+      {
+        "path": "release-manifest.json",
+        "sha256": "11c134fee758d9516cecff2f37e7d894801f199b8c83be943cf2a1c503f50339",
+        "bytes": 508,
+        "remote_digest_type": "sha1-git-blob"
+      }
+    ],
+    "old_files_retained": true,
+    "sdk": "static",
+    "runtime": "RUNNING"
+  },
+  "tags": {
+    "name": "v0.2.0",
+    "dataset_created_at_revision": "0e3c67a12ca44e699da3bafb28e260e5ee597861",
+    "space_created_at_revision": "9efec5660a252d2c60850d5492e556614b047dda",
+    "both_creation_commands_succeeded": true,
+    "both_tags_present_in_provider_refs": true,
+    "refs_contain_annotated_tag_objects": true,
+    "peeled_revision_api_check": "Connection reset; not counted as passed"
+  },
+  "tests_passed": 243,
+  "full_replay": {
+    "status": "PASS",
+    "raw_predictions": 4325376,
+    "companion_predictions": 4325376,
+    "history_reloads": 11,
+    "future_rows_excluded_on_reload": 512
+  },
+  "scientific_qualification": "FAIL",
+  "dataset_table_viewer": {
+    "status": "PENDING",
+    "provider_response": "The server is busier than usual and the response is not ready yet. Please retry later.",
+    "new_rows_local_validated": 130205,
+    "old_rows_retained": 208210
+  },
+  "graph_qa": {
+    "local": "PASS ten studies, world/policy controls, SVG/CSV, keyboard tooltips, mobile width, zero console errors; see two-speed-browser.json",
+    "live_space_container": "Running observed in browser and provider API",
+    "live_static_app": "NOT VERIFIED from this workstation: in-app browser ERR_BLOCKED_BY_CLIENT; default-TLS curl revocation-server offline; urllib connection reset",
+    "remote_space_files": "All five released files match local sizes and Git digests",
+    "screenshot_scope": "Local verified graph preview and separate live provider Running container; not a claim of live chart interaction"
+  },
+  "preservation_and_privacy": "PASS original projects, pinned clean vendor, old numeric records; see two-speed-preservation.json",
+  "limits": "Synthetic known-task routing; six world clusters and pointwise exploratory intervals; bounded searched records but unbounded audit history; no equal total-memory or equal-compute claim."
+}

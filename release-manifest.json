@@ -28,8 +28,8 @@
     "bytes": 4144
   },
   "README.md": {
-    "sha256": "6bffab681390aca7b79103028381b8f9073dc56f760405ee9b1f3b8926147ed8",
-    "bytes": 7415
+    "sha256": "02e6aef6a7e6a198525f4e8be99ab64b3884c20bbbed7a74e30c6f8067399cc9",
+    "bytes": 7883
   },
   "REPRODUCIBILITY.md": {
     "sha256": "ae62dbc5fe2f81148cb7e8ec1201512cfd6de686d492886b3e58814e43c2b138",
@@ -318,6 +318,10 @@
   "provenance/two-speed-public-tests.json": {
     "sha256": "b0dffb48ce4a403cd583b6163eab81fff85f2f9e56d64a530b8ea57fd6d7f1c5",
     "bytes": 526
+  },
+  "provenance/two-speed-publication.json": {
+    "sha256": "7f9bfabc4a3c834004ac5cf4b98089004adf3f7747f783edd0e2b01ed197bcef",
+    "bytes": 8115
   },
   "recall_lab/__init__.py": {
     "sha256": "a482c1047eedbc310c907915eea23d0af8d767cc8138925c644586cd802f7d9c",

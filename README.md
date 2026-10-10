@@ -120,3 +120,10 @@ python two_speed.py verify --output results/my-two-speed-reproduction
 
 The code requires no keys, downloads or model services. The full trace archive
 is exposed evaluation evidence and must not be reused as hidden test data.
+
+All 243 tests and the complete refit/reselection/replay passed, including all
+eleven history reloads excluding future feedback. Publication checks and their
+limits are in [the receipt](provenance/two-speed-publication.json): provider
+files match and the Space reports Running; local interactive QA passed, while
+live visual verification was blocked on this workstation and the new dataset
+table viewer was still processing. Scientific qualification remains **FAIL**.
