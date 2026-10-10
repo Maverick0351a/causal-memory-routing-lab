@@ -1,0 +1,399 @@
+{
+  "frozen_gate": "results/confidence-transfer-v1/checkpoints/frozen_gate.npz",
+  "frozen_gate_sha256": "ea13900be7487f6030189f4fc80545d975ee47a58aa46b2c3117412eab37fe4f",
+  "coefficient_norm": 3.0,
+  "expert_learning_rate": 0.05,
+  "expert_l2": 0.001,
+  "recurrent_hidden": 24,
+  "recurrent_learning_rate": 0.003,
+  "bptt_steps": 32,
+  "recurrent_temperatures": [
+    0.5,
+    1.0,
+    2.0
+  ],
+  "cases": [
+    "recurring",
+    "noisy_cues",
+    "mapping_change",
+    "repeated_changes",
+    "noisy_changes",
+    "novel_contexts",
+    "random_labels",
+    "no_feedback"
+  ],
+  "selection_cases": [
+    "recurring",
+    "noisy_cues",
+    "mapping_change",
+    "repeated_changes",
+    "noisy_changes"
+  ],
+  "primary_cases": [
+    "mapping_change",
+    "repeated_changes",
+    "noisy_changes"
+  ],
+  "stable_cases": [
+    "recurring",
+    "noisy_cues"
+  ],
+  "training_cases": [
+    "recurring",
+    "recurring",
+    "noisy_cues",
+    "noisy_cues",
+    "mapping_change",
+    "repeated_changes",
+    "repeated_changes",
+    "noisy_changes"
+  ],
+  "cue_norm": 3.0,
+  "cue_sigma": 0.12,
+  "noisy_cue_sigma": 0.3,
+  "minimum_cue_separation": 2.0,
+  "routing_temperature": 8.0,
+  "evidence_warmup": 8,
+  "return_window": 16,
+  "recovery_window": 8,
+  "recovery_horizon": 64,
+  "recovery_loss_threshold": 0.55,
+  "change_cycle_blocks": 4,
+  "id": "two-speed-20261010",
+  "version": 1,
+  "calibration_steps": 512,
+  "expert_epochs": 100,
+  "training_steps": 512,
+  "recurrent_epochs": 4,
+  "validation_steps": 768,
+  "test_steps": 1024,
+  "block_interval": [
+    32,
+    64
+  ],
+  "memory_capacity": 256,
+  "fast_capacity": 64,
+  "neighbors": 64,
+  "fast_neighbors": 16,
+  "fast_half_life": 2.0,
+  "retrieval_radius": 1.25,
+  "fast_prior_penalty": 0.05,
+  "selector_capacity": 8,
+  "selector_rates": [
+    0.05,
+    0.2
+  ],
+  "selector_temperatures": [
+    4.0,
+    12.0
+  ],
+  "adaptive_windows": [
+    8,
+    32,
+    64
+  ],
+  "fading_half_lives": [
+    2.0,
+    8.0,
+    32.0
+  ],
+  "cache_capacity": 8,
+  "cache_rates": [
+    0.1,
+    0.35
+  ],
+  "bootstrap_seed": 12199999,
+  "bootstrap_replicates": 10000,
+  "resume_step": 512,
+  "thresholds": {
+    "changed_gain": 0.01,
+    "delay_gain": 2.0,
+    "changed_noninferiority": 0.01,
+    "delay_noninferiority": 0.5,
+    "stable_noninferiority": 0.02,
+    "brier_noninferiority": 0.01,
+    "ece_noninferiority": 0.02,
+    "confident_error_noninferiority": 0.005,
+    "balanced_gain": 0.005,
+    "shuffle_gain": 0.01,
+    "chance_tolerance": 0.02
+  },
+  "worlds": [
+    {
+      "id": "world-1",
+      "coefficient_seed": 12100602,
+      "calibration_seeds": [
+        12100001,
+        12100002,
+        12100003,
+        12100004
+      ],
+      "expert_seeds": [
+        12100101,
+        12100102,
+        12100103,
+        12100104
+      ],
+      "training_seeds": [
+        12100201,
+        12100202,
+        12100203,
+        12100204,
+        12100205,
+        12100206,
+        12100207,
+        12100208
+      ],
+      "recurrent_seeds": [
+        12100301,
+        12100302
+      ],
+      "validation_seeds": [
+        12100401,
+        12100402
+      ],
+      "test_seeds": [
+        12100501,
+        12100502,
+        12100503,
+        12100504,
+        12100505,
+        12100506,
+        12100507,
+        12100508
+      ],
+      "training_shuffle_seed": 12100603,
+      "shuffled_memory_seed": 12100601
+    },
+    {
+      "id": "world-2",
+      "coefficient_seed": 12110602,
+      "calibration_seeds": [
+        12110001,
+        12110002,
+        12110003,
+        12110004
+      ],
+      "expert_seeds": [
+        12110101,
+        12110102,
+        12110103,
+        12110104
+      ],
+      "training_seeds": [
+        12110201,
+        12110202,
+        12110203,
+        12110204,
+        12110205,
+        12110206,
+        12110207,
+        12110208
+      ],
+      "recurrent_seeds": [
+        12110301,
+        12110302
+      ],
+      "validation_seeds": [
+        12110401,
+        12110402
+      ],
+      "test_seeds": [
+        12110501,
+        12110502,
+        12110503,
+        12110504,
+        12110505,
+        12110506,
+        12110507,
+        12110508
+      ],
+      "training_shuffle_seed": 12110603,
+      "shuffled_memory_seed": 12110601
+    },
+    {
+      "id": "world-3",
+      "coefficient_seed": 12120602,
+      "calibration_seeds": [
+        12120001,
+        12120002,
+        12120003,
+        12120004
+      ],
+      "expert_seeds": [
+        12120101,
+        12120102,
+        12120103,
+        12120104
+      ],
+      "training_seeds": [
+        12120201,
+        12120202,
+        12120203,
+        12120204,
+        12120205,
+        12120206,
+        12120207,
+        12120208
+      ],
+      "recurrent_seeds": [
+        12120301,
+        12120302
+      ],
+      "validation_seeds": [
+        12120401,
+        12120402
+      ],
+      "test_seeds": [
+        12120501,
+        12120502,
+        12120503,
+        12120504,
+        12120505,
+        12120506,
+        12120507,
+        12120508
+      ],
+      "training_shuffle_seed": 12120603,
+      "shuffled_memory_seed": 12120601
+    },
+    {
+      "id": "world-4",
+      "coefficient_seed": 12130602,
+      "calibration_seeds": [
+        12130001,
+        12130002,
+        12130003,
+        12130004
+      ],
+      "expert_seeds": [
+        12130101,
+        12130102,
+        12130103,
+        12130104
+      ],
+      "training_seeds": [
+        12130201,
+        12130202,
+        12130203,
+        12130204,
+        12130205,
+        12130206,
+        12130207,
+        12130208
+      ],
+      "recurrent_seeds": [
+        12130301,
+        12130302
+      ],
+      "validation_seeds": [
+        12130401,
+        12130402
+      ],
+      "test_seeds": [
+        12130501,
+        12130502,
+        12130503,
+        12130504,
+        12130505,
+        12130506,
+        12130507,
+        12130508
+      ],
+      "training_shuffle_seed": 12130603,
+      "shuffled_memory_seed": 12130601
+    },
+    {
+      "id": "world-5",
+      "coefficient_seed": 12140602,
+      "calibration_seeds": [
+        12140001,
+        12140002,
+        12140003,
+        12140004
+      ],
+      "expert_seeds": [
+        12140101,
+        12140102,
+        12140103,
+        12140104
+      ],
+      "training_seeds": [
+        12140201,
+        12140202,
+        12140203,
+        12140204,
+        12140205,
+        12140206,
+        12140207,
+        12140208
+      ],
+      "recurrent_seeds": [
+        12140301,
+        12140302
+      ],
+      "validation_seeds": [
+        12140401,
+        12140402
+      ],
+      "test_seeds": [
+        12140501,
+        12140502,
+        12140503,
+        12140504,
+        12140505,
+        12140506,
+        12140507,
+        12140508
+      ],
+      "training_shuffle_seed": 12140603,
+      "shuffled_memory_seed": 12140601
+    },
+    {
+      "id": "world-6",
+      "coefficient_seed": 12150602,
+      "calibration_seeds": [
+        12150001,
+        12150002,
+        12150003,
+        12150004
+      ],
+      "expert_seeds": [
+        12150101,
+        12150102,
+        12150103,
+        12150104
+      ],
+      "training_seeds": [
+        12150201,
+        12150202,
+        12150203,
+        12150204,
+        12150205,
+        12150206,
+        12150207,
+        12150208
+      ],
+      "recurrent_seeds": [
+        12150301,
+        12150302
+      ],
+      "validation_seeds": [
+        12150401,
+        12150402
+      ],
+      "test_seeds": [
+        12150501,
+        12150502,
+        12150503,
+        12150504,
+        12150505,
+        12150506,
+        12150507,
+        12150508
+      ],
+      "training_shuffle_seed": 12150603,
+      "shuffled_memory_seed": 12150601
+    }
+  ]
+}

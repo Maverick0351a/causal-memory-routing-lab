@@ -1,0 +1,13 @@
+{
+  "status": "PASS after retained fixture failures",
+  "tests_passed": 238,
+  "previous_release_tests": 206,
+  "new_tests": 32,
+  "registered_data_generated": false,
+  "log_sha256": {
+    "two-speed-development-tests-1.log": "a4225d1ad58a3de19e4c89a63f26ca433158b3f95c9e2c22e3fb9b24637cda38",
+    "two-speed-development-tests-2.log": "e86444d8c5c18eeb36551ee67a4d4aee400328898c297356c9144342c2f87b57",
+    "two-speed-development-tests-3.log": "be66b01b53453a042439b8b7f1c082a6abb057c39262dbc9f428cfd695b106d9",
+    "two-speed-development-tests-4.log": "383cfc2a63cb2e697192bf4e9e37e3e4382459697aa188e30a2aa2b06d80f3ab"
+  }
+}
